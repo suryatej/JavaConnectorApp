@@ -89,12 +89,14 @@
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
+            <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>true</tc_spawindows>
+            <tc_spawinphone8>true</tc_spawinphone8>
             <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -129,12 +131,14 @@
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
+            <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>true</tc_spawindows>
+            <tc_spawinphone8>true</tc_spawinphone8>
             <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -221,6 +225,14 @@
                 <unit>%</unit>
             </palmpre>
             <palmpre_override>false</palmpre_override>
+            <spaWinphone8>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </spaWinphone8>
+            <spaWinphone8_override>false</spaWinphone8_override>
             <spaipad>
                 <left>0</left>
                 <right>0</right>
@@ -230,6 +242,7 @@
             </spaipad>
             <spaipad_override>false</spaipad_override>
             <spatablet_android_override>false</spatablet_android_override>
+            <spatablet_windows_override>false</spatablet_windows_override>
             <symbian>
                 <left>0</left>
                 <right>0</right>
@@ -253,6 +266,13 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </tabspaAndroid>
+            <tabspaWindows>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </tabspaWindows>
             <thinclient>
                 <left>0</left>
                 <right>0</right>
@@ -688,6 +708,7 @@
         <spa_onLoadJSEvent></spa_onLoadJSEvent>
         <spa_unLoadJSEvent></spa_unLoadJSEvent>
         <spa_popup_transition>None</spa_popup_transition>
+        <spa_deviceOrientation>0</spa_deviceOrientation>
         <spa_out_popup_transition>None</spa_out_popup_transition>
         <spa_scroll_bounce>true</spa_scroll_bounce>
         <spa_form_transparency></spa_form_transparency>
@@ -776,12 +797,14 @@
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
+                <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
                 <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
+                <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>true</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -868,6 +891,14 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>true</palmpre_override>
+                <spaWinphone8>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </spaWinphone8>
+                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -877,6 +908,7 @@
                 </spaipad>
                 <spaipad_override>false</spaipad_override>
                 <spatablet_android_override>false</spatablet_android_override>
+                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -900,6 +932,13 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
+                <tabspaWindows>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -916,7 +955,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </windows8>
-                <windows8_override>true</windows8_override>
+                <windows8_override>false</windows8_override>
                 <winmobile>
                     <left>0</left>
                     <right>0</right>
@@ -1111,6 +1150,14 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>false</palmpre_override>
+                <spaWinphone8>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </spaWinphone8>
+                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -1120,6 +1167,7 @@
                 </spaipad>
                 <spaipad_override>false</spaipad_override>
                 <spatablet_android_override>false</spatablet_android_override>
+                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>0</left>
                     <right>0</right>
@@ -1143,6 +1191,13 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
+                <tabspaWindows>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -1480,12 +1535,14 @@
                     <rc_winmobile6x>true</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
+                    <tabspa_windows>true</tabspa_windows>
                     <tabspaspa_android>true</tabspaspa_android>
                     <tc_spaandroid>true</tc_spaandroid>
                     <tc_spabb>true</tc_spabb>
                     <tc_spabb_nth>true</tc_spabb_nth>
                     <tc_spaiphone>true</tc_spaiphone>
                     <tc_spawindows>true</tc_spawindows>
+                    <tc_spawinphone8>true</tc_spawinphone8>
                     <tc_xhtml>true</tc_xhtml>
                     <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                     <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -1572,6 +1629,14 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>true</palmpre_override>
+                    <spaWinphone8>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </spaWinphone8>
+                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -1581,6 +1646,7 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
+                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -1604,6 +1670,13 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
+                    <tabspaWindows>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -1815,6 +1888,14 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>false</palmpre_override>
+                    <spaWinphone8>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </spaWinphone8>
+                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -1824,6 +1905,7 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
+                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -1847,6 +1929,13 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
+                    <tabspaWindows>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -2073,12 +2162,14 @@
                     <rc_winmobile6x>true</rc_winmobile6x>
                     <rc_winphone8>true</rc_winphone8>
                     <tabspa_ipad>true</tabspa_ipad>
+                    <tabspa_windows>true</tabspa_windows>
                     <tabspaspa_android>true</tabspaspa_android>
                     <tc_spaandroid>true</tc_spaandroid>
                     <tc_spabb>true</tc_spabb>
                     <tc_spabb_nth>true</tc_spabb_nth>
                     <tc_spaiphone>true</tc_spaiphone>
                     <tc_spawindows>true</tc_spawindows>
+                    <tc_spawinphone8>true</tc_spawinphone8>
                     <tc_xhtml>true</tc_xhtml>
                     <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                     <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -2165,6 +2256,14 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>true</palmpre_override>
+                    <spaWinphone8>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </spaWinphone8>
+                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -2174,6 +2273,7 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
+                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -2197,6 +2297,13 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
+                    <tabspaWindows>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -2408,6 +2515,14 @@
                         <unit>%</unit>
                     </palmpre>
                     <palmpre_override>false</palmpre_override>
+                    <spaWinphone8>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </spaWinphone8>
+                    <spaWinphone8_override>false</spaWinphone8_override>
                     <spaipad>
                         <left>0</left>
                         <right>0</right>
@@ -2417,6 +2532,7 @@
                     </spaipad>
                     <spaipad_override>false</spaipad_override>
                     <spatablet_android_override>false</spatablet_android_override>
+                    <spatablet_windows_override>false</spatablet_windows_override>
                     <symbian>
                         <left>1</left>
                         <right>1</right>
@@ -2440,6 +2556,13 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabspaAndroid>
+                    <tabspaWindows>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
+                        <unit>%</unit>
+                    </tabspaWindows>
                     <thinclient>
                         <left>0</left>
                         <right>0</right>
@@ -2667,12 +2790,14 @@
                 <rc_winmobile6x>true</rc_winmobile6x>
                 <rc_winphone8>true</rc_winphone8>
                 <tabspa_ipad>true</tabspa_ipad>
+                <tabspa_windows>true</tabspa_windows>
                 <tabspaspa_android>true</tabspaspa_android>
                 <tc_spaandroid>true</tc_spaandroid>
                 <tc_spabb>true</tc_spabb>
                 <tc_spabb_nth>true</tc_spabb_nth>
                 <tc_spaiphone>true</tc_spaiphone>
                 <tc_spawindows>true</tc_spawindows>
+                <tc_spawinphone8>true</tc_spawinphone8>
                 <tc_xhtml>true</tc_xhtml>
                 <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
                 <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -2759,6 +2884,14 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>true</palmpre_override>
+                <spaWinphone8>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </spaWinphone8>
+                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -2768,6 +2901,7 @@
                 </spaipad>
                 <spaipad_override>false</spaipad_override>
                 <spatablet_android_override>false</spatablet_android_override>
+                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>1</left>
                     <right>1</right>
@@ -2791,6 +2925,13 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
+                <tabspaWindows>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -3002,6 +3143,14 @@
                     <unit>%</unit>
                 </palmpre>
                 <palmpre_override>false</palmpre_override>
+                <spaWinphone8>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </spaWinphone8>
+                <spaWinphone8_override>false</spaWinphone8_override>
                 <spaipad>
                     <left>0</left>
                     <right>0</right>
@@ -3011,6 +3160,7 @@
                 </spaipad>
                 <spaipad_override>false</spaipad_override>
                 <spatablet_android_override>false</spatablet_android_override>
+                <spatablet_windows_override>false</spatablet_windows_override>
                 <symbian>
                     <left>1</left>
                     <right>1</right>
@@ -3034,6 +3184,13 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabspaAndroid>
+                <tabspaWindows>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
+                    <unit>%</unit>
+                </tabspaWindows>
                 <thinclient>
                     <left>0</left>
                     <right>0</right>
@@ -3293,12 +3450,14 @@
             <rc_winmobile6x>true</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
+            <tabspa_windows>true</tabspa_windows>
             <tabspaspa_android>true</tabspaspa_android>
             <tc_spaandroid>true</tc_spaandroid>
             <tc_spabb>true</tc_spabb>
             <tc_spabb_nth>true</tc_spabb_nth>
             <tc_spaiphone>true</tc_spaiphone>
             <tc_spawindows>true</tc_spawindows>
+            <tc_spawinphone8>true</tc_spawinphone8>
             <tc_xhtml>true</tc_xhtml>
             <tc_xhtml_advandroid1>true</tc_xhtml_advandroid1>
             <tc_xhtml_advbb>true</tc_xhtml_advbb>
@@ -3385,6 +3544,14 @@
                 <unit>%</unit>
             </palmpre>
             <palmpre_override>false</palmpre_override>
+            <spaWinphone8>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </spaWinphone8>
+            <spaWinphone8_override>false</spaWinphone8_override>
             <spaipad>
                 <left>0</left>
                 <right>0</right>
@@ -3394,6 +3561,7 @@
             </spaipad>
             <spaipad_override>false</spaipad_override>
             <spatablet_android_override>false</spatablet_android_override>
+            <spatablet_windows_override>false</spatablet_windows_override>
             <symbian>
                 <left>0</left>
                 <right>0</right>
@@ -3417,6 +3585,13 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </tabspaAndroid>
+            <tabspaWindows>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </tabspaWindows>
             <thinclient>
                 <left>0</left>
                 <right>0</right>
@@ -3628,6 +3803,14 @@
                 <unit>%</unit>
             </palmpre>
             <palmpre_override>false</palmpre_override>
+            <spaWinphone8>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </spaWinphone8>
+            <spaWinphone8_override>false</spaWinphone8_override>
             <spaipad>
                 <left>0</left>
                 <right>0</right>
@@ -3637,6 +3820,7 @@
             </spaipad>
             <spaipad_override>false</spaipad_override>
             <spatablet_android_override>false</spatablet_android_override>
+            <spatablet_windows_override>false</spatablet_windows_override>
             <symbian>
                 <left>0</left>
                 <right>0</right>
@@ -3660,6 +3844,13 @@
                 <bottom>0</bottom>
                 <unit>%</unit>
             </tabspaAndroid>
+            <tabspaWindows>
+                <left>0</left>
+                <right>0</right>
+                <top>0</top>
+                <bottom>0</bottom>
+                <unit>%</unit>
+            </tabspaWindows>
             <thinclient>
                 <left>0</left>
                 <right>0</right>

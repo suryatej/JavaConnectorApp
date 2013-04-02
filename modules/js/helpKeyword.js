@@ -10,12 +10,13 @@
 			gNoOfRows = 0;
 			gPageno = 0;
 			gFromRow = 0;
+			gVisit = 0;
 		    var mysqlhelpkeyword_inputparam = {};
 		    mysqlhelpkeyword_inputparam["serviceID"] = "helpkeyword_mysql";
 		    mysqlhelpkeyword_inputparam["httpheaders"] = {};
-		    mysqlhelpkeyword_inputparam["httpconfigs"] = {};
-		    kony.application.showLoadingScreen("loadskin1","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
-		    var mysqlhelpkeyword = appmiddlewareinvokerasync(mysqlhelpkeyword_inputparam, helpKeywordCallback);        
+		    mysqlhelpkeyword_inputparam["httpconfigs"] = {};		    
+		    var mysqlhelpkeyword = appmiddlewareinvokerasync(mysqlhelpkeyword_inputparam, helpKeywordCallback);
+		    kony.application.showLoadingScreen("loadskin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);        
 		};
 
 /*
@@ -46,6 +47,7 @@
 				else{
 					alert("Cannot find host on this network connection,Please check network & try again.");
 					frmKeywords.lblInfo.text = "Cannot find host on this network connection,Please check network & try again.";
+					gVisit = 1;
 					hbxFooterPage.setVisibility(false);	
 		           	kony.application.dismissLoadingScreen();
 		           	return;
@@ -56,7 +58,9 @@
 		
 
 		
-	// Defined onClick of next button for pagination of keywords data object in frmKeyword form.
+	/* 
+	Defined onClick of next button for pagination of keywords data object in frmKeyword form.
+	*/
 	
 		function paginationNext(){			
 			hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "arwleftd.png";
@@ -76,9 +80,9 @@
 			if(absPageno == 1)
 				hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "trans1.png";
 			else
-				gFromRow = gFromRow+8;	
-			hbxFooterPage.lblFrom.text = gPageno.toPrecision();
-			hbxFooterPage.lblTo.text = gNoOfPages.toPrecision();
+				gFromRow = gFromRow+8;				
+			hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblFrom.text = gPageno.toPrecision();
+			hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblTo.text = gNoOfPages.toPrecision();
 			var nextHelpKeywordData = [];
 			for (var i = gFromRow ; i < gNoOfRows; i++ ){
 				if(ghkData[i]!= null && ghkData[i]!= undefined)
@@ -89,7 +93,7 @@
 			kony.application.dismissLoadingScreen();
 		}
 		
-	// Defined onClick of previous button for pagination of keywords data object in frmKeyword form.
+	/* Defined onClick of previous button for pagination of keywords data object in frmKeyword form.*/
 		
 		function paginationPrevious()
 		{
@@ -104,7 +108,7 @@
 			 }
 			if(absPageno == 1)
 				hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "trans1.png";
-			hbxFooterPage.lblFrom.text = gPageno.toPrecision();
+			hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblFrom.text = gPageno.toPrecision();
 			gFromRow = gFromRow-8;
 			gNoOfRows = gNoOfRows-8;		
 			var preHelpKeywordData = [];
@@ -117,11 +121,10 @@
 			kony.application.dismissLoadingScreen();
 		}
 		
-	// To navigate frmKeywords form
+	/* To navigate frmKeywords form */
 	
 		function navToFrmKeyword(){	
-			if(frmKeywords.lblInfo.text == "Cannot find host on this network connection,Please check network & try again.")			{
-				
+			if(gVisit == 1){ /* "Cannot find host on this network connection,Please check network & try again." */ 				
 				searchByHelpKeyword()
 			}
 			else frmKeywords.show();

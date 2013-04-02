@@ -1,3 +1,7 @@
+
+
+/* global Data */
+ gVisit = 0;
 	
 	
 /*
@@ -9,12 +13,13 @@
 */
 	
 	function searchByHelpCategory() {
+		gVisit = 0;
 	    var mysqlhelpcategory_inputparam = {};
 	    mysqlhelpcategory_inputparam["serviceID"] = "helpcategory_mysql";
 	    mysqlhelpcategory_inputparam["httpheaders"] = {};
-	    mysqlhelpcategory_inputparam["httpconfigs"] = {};
-	    kony.application.showLoadingScreen("loadskin1","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
+	    mysqlhelpcategory_inputparam["httpconfigs"] = {};	    
 	    var mysqlhelpcategory = appmiddlewareinvokerasync(mysqlhelpcategory_inputparam, helpCategoryCallback);
+	    kony.application.showLoadingScreen("loadskin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 	}
 
 /*
@@ -46,6 +51,7 @@
 			else{
 					alert("Cannot find host on this network connection,Please check network & try again.");
 					frmCategory.lblInfo.text = "Cannot find host on this network connection,Please check network & try again.";
+					gVisit = 1;
 					hbxFooterPage.setVisibility(false);	
 		           	kony.application.dismissLoadingScreen();
 		           	return;
@@ -53,11 +59,11 @@
 	    }
 	}
 	
-	// To navigate frmCategory form
+	/* To navigate frmCategory form */
 	
 		function navToFrmCategory(){			
 				
-			if(frmCategory.lblInfo.text == "Cannot find host on this network connection,Please check network & try again.")
+			if(gVisit == 1)
 			{
 				searchByHelpCategory();
 			}
