@@ -8,9 +8,17 @@
 */
 
 	function serviceHelpRelation() {
+	
+		var KeywordID = null;
+		//#ifdef desktopweb
+			KeywordID = frmSearchOption["segHelpKeyword"]["selectedItems"][0]["hk_id"];
+		//#else
+			KeywordID = frmKeywords["segHelpKeyword"]["selectedItems"][0]["hk_id"];
+		//#endif
+		
 	    var mysqlhelprelation_inputparam = {};
 	    mysqlhelprelation_inputparam["serviceID"] = "helprelation_mysql";
-	    mysqlhelprelation_inputparam["id"] = frmKeywords["segHelpKeyword"]["selectedItems"][0]["hk_id"];
+	    mysqlhelprelation_inputparam["id"] = KeywordID;
 	    mysqlhelprelation_inputparam["httpheaders"] = {};
 	    mysqlhelprelation_inputparam["httpconfigs"] = {};
 	    kony.application.showLoadingScreen("loadskin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
@@ -35,10 +43,17 @@
 	                        "lblHTName": mysqlHelpRelationData["helpRelation"][i]["name"],
 	                        "lblHTUrl": mysqlHelpRelationData["helpRelation"][i]["url"]
 	                    })
-	                }
-	                frmTopic.segHelptopic.setData(hlArray);
+	                }	                
 	            }
-	            frmTopic.show();
+	            //#ifdef desktopweb
+	            	frmSearchOption.segHelptopic.setData(hlArray);
+	            	frmSearchOption.lblInfo.setVisibility(false);
+	            	frmSearchOption.show();
+	            //#else
+		            frmTopic.segHelptopic.setData(hlArray);
+		            frmTopic.show();	            	
+	            //#endif
+	            
 	            kony.application.dismissLoadingScreen();
 	        }
 			else{

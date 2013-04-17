@@ -435,7 +435,7 @@
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>portrait</display_orientation>
+        <display_orientation>treeView</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -767,8 +767,8 @@
                 <width>100</width>
                 <height>6</height>
             </sizePercent>
-            <skinId>Skin Defaults</skinId>
-            <focusSkinId>Skin Defaults</focusSkinId>
+            <skinId>btnNormal</skinId>
+            <focusSkinId>btnFocus</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>
@@ -1093,8 +1093,8 @@
                 <defaults>
                     <left>0</left>
                     <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </defaults>
                 <desktop_kiosk>
@@ -1172,13 +1172,13 @@
                 </symbian>
                 <symbian_override>true</symbian_override>
                 <tabRCAndroid>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>15</top>
+                    <bottom>15</bottom>
+                    <unit>px</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -1203,10 +1203,10 @@
                 <thinclient_override>false</thinclient_override>
                 <type>1</type>
                 <windows8>
-                    <left>5</left>
-                    <right>5</right>
-                    <top>5</top>
-                    <bottom>5</bottom>
+                    <left>3</left>
+                    <right>3</right>
+                    <top>15</top>
+                    <bottom>15</bottom>
                     <unit>px</unit>
                 </windows8>
                 <windows8_override>true</windows8_override>
@@ -2638,7 +2638,7 @@
                 </xhtmlNormal>
                 <xhtmlNormal_override>false</xhtmlNormal_override>
             </paddings>
-            <SText>- Parsing properties file/XML </SText>
+            <SText>-Parsing XML files (help_contents of MYSQL)</SText>
             <overridePerferred>
                 <width>true</width>
                 <height>false</height>
@@ -3265,7 +3265,7 @@
                 </xhtmlNormal>
                 <xhtmlNormal_override>false</xhtmlNormal_override>
             </paddings>
-            <SText>- Retrieve help content for SQL based by Category &amp; Keyword</SText>
+            <SText>- Retrieve help_contents based on Categories and Keywords</SText>
             <overridePerferred>
                 <width>true</width>
                 <height>false</height>
@@ -3301,6 +3301,7 @@
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.bbTitleBar</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>

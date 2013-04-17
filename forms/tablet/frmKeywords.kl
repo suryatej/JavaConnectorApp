@@ -453,7 +453,7 @@
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>portrait</display_orientation>
+        <display_orientation>treeView</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -1873,7 +1873,7 @@
                         <unit>%</unit>
                     </bb>
                     <bb_override>true</bb_override>
-                    <default_override>false</default_override>
+                    <default_override>true</default_override>
                     <defaults>
                         <left>0</left>
                         <right>0</right>
@@ -1962,7 +1962,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </tabRCAndroid>
-                    <tablet_rc_android_override>false</tablet_rc_android_override>
+                    <tablet_rc_android_override>true</tablet_rc_android_override>
                     <tabspaAndroid>
                         <left>0</left>
                         <right>0</right>
@@ -2779,6 +2779,7 @@
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

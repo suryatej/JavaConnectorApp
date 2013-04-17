@@ -10,7 +10,7 @@
 			gNoOfRows = 0;
 			gPageno = 0;
 			gFromRow = 0;
-			gVisit = 0;
+			gVisit_Key = 1;
 		    var mysqlhelpkeyword_inputparam = {};
 		    mysqlhelpkeyword_inputparam["serviceID"] = "helpkeyword_mysql";
 		    mysqlhelpkeyword_inputparam["httpheaders"] = {};
@@ -38,16 +38,24 @@
 		                        "lblHelpKeyword": mysqlHelpKeywordData["helpKeyword"][i]["hkname"]
 		                    })
 		                }
-		                frmKeywords.lblInfo.text = "Select keyword for help topic : ";
-		                hbxFooterPage.setVisibility(true);
-		                gNoOfPages = Math.ceil((ghkData.length)/8);		                            
-		                paginationNext();
+		                
+		                //#ifdef desktopweb
+		                	frmSearchOption.segHelpKeyword.setData(ghkData);
+		                	kony.application.dismissLoadingScreen();
+		                //#else
+			                frmKeywords.lblInfo.text = "Select keyword for help topic : ";
+			                hbxFooterPage.setVisibility(true);
+			                gNoOfPages = Math.ceil((ghkData.length)/8);		                            
+			                paginationNext();		                	
+		                //#endif
+		                
+
 		            }		       
 				}
 				else{
 					alert("Cannot find host on this network connection,Please check network & try again.");
 					frmKeywords.lblInfo.text = "Cannot find host on this network connection,Please check network & try again.";
-					gVisit = 1;
+					gVisit_Key = 2;
 					hbxFooterPage.setVisibility(false);	
 		           	kony.application.dismissLoadingScreen();
 		           	return;
@@ -124,7 +132,7 @@
 	/* To navigate frmKeywords form */
 	
 		function navToFrmKeyword(){	
-			if(gVisit == 1){ /* "Cannot find host on this network connection,Please check network & try again." */ 				
+			if(gVisit_Key == 0 || gVisit_Key == 2){ /* "Cannot find host on this network connection,Please check network & try again." */ 				
 				searchByHelpKeyword()
 			}
 			else frmKeywords.show();

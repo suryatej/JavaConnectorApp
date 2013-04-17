@@ -1,7 +1,8 @@
 
 
 /* global Data */
- gVisit = 0;
+ gVisit_Cat = 0;
+ gVisit_Key = 0;
 	
 	
 /*
@@ -13,7 +14,7 @@
 */
 	
 	function searchByHelpCategory() {
-		gVisit = 0;
+		gVisit_Cat = 1;
 	    var mysqlhelpcategory_inputparam = {};
 	    mysqlhelpcategory_inputparam["serviceID"] = "helpcategory_mysql";
 	    mysqlhelpcategory_inputparam["httpheaders"] = {};
@@ -41,17 +42,26 @@
 	                        "lblHelpCategory": mysqlHelpCategoryData["helpCategory"][i]["hcname"]
 	                    })
 	                }
-	                frmCategory.segHelpCategory.setData(hcArray);
-	                hbxFooterPage.setVisibility(true);
-	                frmCategory.lblInfo.text = "Select a category for respective HelpTopics: ";
-	                frmCategory.show();
+	                
+	                //#ifdef desktopweb
+	                	frmSearchOption.segHelpCategory.setData(hcArray);
+	                	kony.application.dismissLoadingScreen();
+	                	//frmSearchOption.lblInfo.text = "Select a category for respective HelpTopics: ";
+	                	frmSearchOption.show();
+	                //#else
+		                frmCategory.segHelpCategory.setData(hcArray);
+		                hbxFooterPage.setVisibility(true);
+		                frmCategory.lblInfo.text = "Select a category for respective HelpTopics: ";
+		                frmCategory.show();	                	
+	                //#endif             
+
 	           		kony.application.dismissLoadingScreen();
 	            }
 	        }
 			else{
 					alert("Cannot find host on this network connection,Please check network & try again.");
 					frmCategory.lblInfo.text = "Cannot find host on this network connection,Please check network & try again.";
-					gVisit = 1;
+					gVisit_Cat = 2;
 					hbxFooterPage.setVisibility(false);	
 		           	kony.application.dismissLoadingScreen();
 		           	return;
@@ -63,7 +73,7 @@
 	
 		function navToFrmCategory(){			
 				
-			if(gVisit == 1)
+			if(gVisit_Cat == 0 || gVisit_Cat == 2)
 			{
 				searchByHelpCategory();
 			}

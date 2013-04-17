@@ -435,7 +435,7 @@
         <headerOverlap>false</headerOverlap>
         <c_isModal>false</c_isModal>
         <orientation>1</orientation>
-        <display_orientation>portrait</display_orientation>
+        <display_orientation>treeView</display_orientation>
         <itemSkinId>Skin Defaults</itemSkinId>
         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
         <parentOnLoadJS></parentOnLoadJS>
@@ -3365,6 +3365,7 @@
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.bbTitleBar</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>

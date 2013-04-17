@@ -41,6 +41,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -49,6 +50,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="bold" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -118,7 +120,7 @@
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -170,6 +172,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -178,6 +181,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -249,7 +253,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -301,6 +305,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -309,6 +314,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="bold" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -377,7 +383,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -429,6 +435,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -437,6 +444,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -507,7 +515,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -559,6 +567,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -567,6 +576,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -637,7 +647,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -689,6 +699,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -697,6 +708,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -765,7 +777,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -817,6 +829,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -825,6 +838,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -895,7 +909,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -947,6 +961,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -955,6 +970,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -1023,7 +1039,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1075,6 +1091,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -1083,6 +1100,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -1153,7 +1171,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1205,6 +1223,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -1213,6 +1232,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -1281,7 +1301,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1333,6 +1353,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -1341,6 +1362,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -1411,7 +1433,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1463,6 +1485,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -1471,6 +1494,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="bold" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -1541,7 +1565,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1593,6 +1617,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -1601,6 +1626,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -1669,7 +1695,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1721,6 +1747,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -1729,6 +1756,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -1797,7 +1825,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1849,6 +1877,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -1857,6 +1886,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -1927,7 +1957,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -1979,6 +2009,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -1987,6 +2018,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="bold" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -2057,7 +2089,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2109,6 +2141,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -2117,6 +2150,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="120" type="String"/>
@@ -2186,7 +2220,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2238,6 +2272,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -2246,6 +2281,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -2314,7 +2350,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2366,6 +2402,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -2374,6 +2411,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -2444,7 +2482,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2496,6 +2534,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -2504,6 +2543,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -2572,7 +2612,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2624,6 +2664,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -2632,6 +2673,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -2702,7 +2744,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2754,6 +2796,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -2762,6 +2805,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -2832,7 +2876,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -2884,6 +2928,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -2892,6 +2937,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -2962,7 +3008,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3014,6 +3060,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -3022,6 +3069,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -3092,7 +3140,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3144,6 +3192,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -3152,6 +3201,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -3222,7 +3272,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3274,6 +3324,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -3282,6 +3333,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -3353,7 +3405,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3405,6 +3457,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -3413,6 +3466,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -3482,7 +3536,7 @@
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3534,6 +3588,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -3542,10 +3597,11 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
-        <att name="Font_size" value="100" type="String"/>
-        <att name="Font_color" value="63,63,63" type="RGB"/>
+        <att name="Font_size" value="140" type="String"/>
+        <att name="Font_color" value="0,0,0" type="RGB"/>
         <att name="Font_color_alpha" value="0" type="String"/>
         <att name="Rightfont_weight" value="normal" type="String"/>
         <att name="Rightfont_style" value="" type="String"/>
@@ -3610,7 +3666,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111111111111111111111111111" type="String"/>
+        <att name="ApplicablePlatforms" value="111111111111111111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3662,6 +3718,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -3670,6 +3727,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -3740,7 +3798,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3792,6 +3850,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -3800,6 +3859,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -3868,7 +3928,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -3920,6 +3980,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -3928,6 +3989,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -3998,7 +4060,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4050,6 +4112,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -4058,6 +4121,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -4129,7 +4193,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4181,6 +4245,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -4189,6 +4254,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -4259,7 +4325,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4311,6 +4377,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -4319,6 +4386,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -4389,7 +4457,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4441,6 +4509,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -4449,6 +4518,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -4519,7 +4589,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4571,6 +4641,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -4579,6 +4650,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -4649,7 +4721,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4701,6 +4773,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -4709,6 +4782,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -4779,7 +4853,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4831,6 +4905,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -4839,6 +4914,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -4910,7 +4986,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -4962,6 +5038,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -4970,6 +5047,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -5040,7 +5118,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5092,6 +5170,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -5100,6 +5179,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -5169,7 +5249,7 @@
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5221,6 +5301,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -5229,6 +5310,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -5299,7 +5381,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5351,6 +5433,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -5359,6 +5442,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -5427,7 +5511,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5479,6 +5563,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -5487,6 +5572,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -5558,7 +5644,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5610,6 +5696,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -5618,6 +5705,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -5688,7 +5776,7 @@
 <att name="Shadow_y" value="0" type="Integer"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5740,6 +5828,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -5748,6 +5837,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="none" type="String"/>
         <att name="Font_size" value="130" type="String"/>
@@ -5817,7 +5907,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5869,6 +5959,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -5877,6 +5968,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -5945,7 +6037,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
@@ -5997,6 +6089,7 @@
         <att name="Bg_spabb_image" value="" type="String"/>
         <att name="Bg_spaandroid_image" value="" type="String"/>
         <att name="Bg_spa_windows_image" value="" type="String"/>
+        <att name="Bg_spa_winphone8_image" value="" type="String"/>
         <att name="Bg_spa_bbnth_image" value="" type="String"/>
         <att name="Bg_js240_image" value="" type="String"/>
         <att name="Bg_js320_image" value="" type="String"/>
@@ -6005,6 +6098,7 @@
         <att name="Bg_desktopWeb_image" value="" type="String"/>
         <att name="Bg_spaipad_image" value="" type="String"/>
         <att name="Bg_spaandroid_tablet_image" value="" type="String"/>
+        <att name="Bg_spawindows_tablet_image" value="" type="String"/>
         <att name="Font_weight" value="normal" type="String"/>
         <att name="Font_style" value="" type="String"/>
         <att name="Font_size" value="100" type="String"/>
@@ -6073,7 +6167,7 @@
 <att name="Shadow_color" value="0,0,0" type="RGB"/>
 <att name="Shadow_x" value="0" type="Integer"/>
 <att name="Shadow_y" value="0" type="Integer"/>
-        <att name="ApplicablePlatforms" value="1111100111110111111111110000" type="String"/>
+        <att name="ApplicablePlatforms" value="111110011111011111111111000011" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
         <att name="Font_name_override" value="true" type="Boolean"/>
