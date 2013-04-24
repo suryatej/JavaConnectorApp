@@ -10,7 +10,7 @@
 			gNoOfRows = 0;
 			gPageno = 0;
 			gFromRow = 0;
-			gVisit_Key = 1;
+			gVisit = 0;
 		    var mysqlhelpkeyword_inputparam = {};
 		    mysqlhelpkeyword_inputparam["serviceID"] = "helpkeyword_mysql";
 		    mysqlhelpkeyword_inputparam["httpheaders"] = {};
@@ -45,7 +45,7 @@
 		                //#else
 			                frmKeywords.lblInfo.text = "Select keyword for help topic : ";
 			                hbxFooterPage.setVisibility(true);
-			                gNoOfPages = Math.ceil((ghkData.length)/8);		                            
+			                gNoOfPages = Math.ceil((ghkData.length)/40);		                            
 			                paginationNext();		                	
 		                //#endif
 		                
@@ -55,7 +55,7 @@
 				else{
 					alert("Cannot find host on this network connection,Please check network & try again.");
 					frmKeywords.lblInfo.text = "Cannot find host on this network connection,Please check network & try again.";
-					gVisit_Key = 2;
+					gVisit = 1;
 					hbxFooterPage.setVisibility(false);	
 		           	kony.application.dismissLoadingScreen();
 		           	return;
@@ -81,14 +81,14 @@
 				gPageno = gPageno-1;
 			 	return;
 			 }
-			gNoOfRows = gNoOfRows+8;
+			gNoOfRows = gNoOfRows+40;
 			var absNoofRows = Math.abs(gNoOfRows);
 			if(absPageno == absNoOfPages)
 				hbxFooterPage.vbxRightFooter.hbxRightFooter.imgRightfooter.src = "trans1.png";
 			if(absPageno == 1)
 				hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "trans1.png";
 			else
-				gFromRow = gFromRow+8;				
+				gFromRow = gFromRow+40;				
 			hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblFrom.text = gPageno.toPrecision();
 			hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblTo.text = gNoOfPages.toPrecision();
 			var nextHelpKeywordData = [];
@@ -117,8 +117,8 @@
 			if(absPageno == 1)
 				hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "trans1.png";
 			hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblFrom.text = gPageno.toPrecision();
-			gFromRow = gFromRow-8;
-			gNoOfRows = gNoOfRows-8;		
+			gFromRow = gFromRow-40;
+			gNoOfRows = gNoOfRows-40;		
 			var preHelpKeywordData = [];
 			for(var i = gFromRow ; i < gNoOfRows ; i++){
 				if(ghkData[i]!= null && ghkData[i]!= undefined)
@@ -132,7 +132,7 @@
 	/* To navigate frmKeywords form */
 	
 		function navToFrmKeyword(){	
-			if(gVisit_Key == 0 || gVisit_Key == 2){ /* "Cannot find host on this network connection,Please check network & try again." */ 				
+			if(gVisit == 1){ /* "Cannot find host on this network connection,Please check network & try again." */ 				
 				searchByHelpKeyword()
 			}
 			else frmKeywords.show();

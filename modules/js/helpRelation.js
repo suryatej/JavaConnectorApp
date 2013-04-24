@@ -12,8 +12,10 @@
 		var KeywordID = null;
 		//#ifdef desktopweb
 			KeywordID = frmSearchOption["segHelpKeyword"]["selectedItems"][0]["hk_id"];
+			frmSearchOption.lblInfo.setVisibility(false); 
 		//#else
 			KeywordID = frmKeywords["segHelpKeyword"]["selectedItems"][0]["hk_id"];
+			frmTopic.lblInfo.setVisibility(false);
 		//#endif
 		
 	    var mysqlhelprelation_inputparam = {};
@@ -47,7 +49,6 @@
 	            }
 	            //#ifdef desktopweb
 	            	frmSearchOption.segHelptopic.setData(hlArray);
-	            	frmSearchOption.lblInfo.setVisibility(false);
 	            	frmSearchOption.show();
 	            //#else
 		            frmTopic.segHelptopic.setData(hlArray);
@@ -65,4 +66,22 @@
 	
 	}
 	
+/*
+****************************************************************
+*	Name    : serachOption
+*	Author  : Kony Solutions
+*	Purpose : This function is used to invoke the helprelation_mysql javaservice using appmiddlewareinvokerasync method  .
+****************************************************************
+*/
 
+	function serachOption() {
+		var flag= frmSearchOption.segHelpKeyword.selectedIndex[1];
+		if(flag==0)
+			navToFrmCategory();
+		else
+		    navToFrmKeyword();
+	}	
+	
+	
+	
+	

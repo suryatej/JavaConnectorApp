@@ -420,6 +420,24 @@
         <title>Category</title>
         <init>
             <evtSequence>
+                <actionList xsi:type="eventFunctionAction">
+                    <enabled>true</enabled>
+                    <name></name>
+                    <type>6</type>
+                    <functionName>None</functionName>
+                    <functionNameMap>
+                        <entry>
+                            <key>js</key>
+                            <value>searchByHelpCategory</value>
+                        </entry>
+                    </functionNameMap>
+                    <paramDataMap>
+                        <entry>
+                            <key>js</key>
+                            <value/>
+                        </entry>
+                    </paramDataMap>
+                </actionList>
                 <enabled>true</enabled>
                 <seqname></seqname>
             </evtSequence>
@@ -487,8 +505,8 @@
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>0</leftSideView>
-            <leftTitle></leftTitle>
+            <leftSideView>1</leftSideView>
+            <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
@@ -504,7 +522,7 @@
             <rightTitleI18Key>None</rightTitleI18Key>
             <rightbtnImgPath></rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>true</visible>
             <textChecked>true</textChecked>
@@ -672,7 +690,7 @@
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
             <background_image></background_image>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <visible>true</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
@@ -1094,7 +1112,7 @@
                     <unit>%</unit>
                 </bb>
                 <bb_override>true</bb_override>
-                <default_override>false</default_override>
+                <default_override>true</default_override>
                 <defaults>
                     <left>0</left>
                     <right>0</right>
@@ -1450,7 +1468,7 @@
             <behavior>0</behavior>
             <selection_indctrId>None</selection_indctrId>
             <render_seperator>true</render_seperator>
-            <iphone_executeonClosure>2</iphone_executeonClosure>
+            <iphone_executeonClosure>0</iphone_executeonClosure>
             <iphone_enableDictionary>false</iphone_enableDictionary>
             <iphone_npi>true</iphone_npi>
             <iphone_pi_color>0</iphone_pi_color>
@@ -1842,8 +1860,8 @@
                     <android>
                         <left>6</left>
                         <right>6</right>
-                        <top>10</top>
-                        <bottom>10</bottom>
+                        <top>15</top>
+                        <bottom>15</bottom>
                         <unit>px</unit>
                     </android>
                     <android_override>true</android_override>
@@ -2761,7 +2779,9 @@
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.bbTitleBar</overrideProperties>
+        <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

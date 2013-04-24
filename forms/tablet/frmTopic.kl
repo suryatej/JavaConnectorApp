@@ -537,7 +537,7 @@
         <tooltip></tooltip>
         <ipad_popupStyle>0</ipad_popupStyle>
         <ipadTitleBarData>
-            <background_image>title.png</background_image>
+            <background_image></background_image>
             <buttonFocusSkinID>Skin Defaults</buttonFocusSkinID>
             <buttonSkinID>Skin Defaults</buttonSkinID>
             <buttonText></buttonText>
@@ -564,8 +564,8 @@
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>0</leftSideView>
-            <leftTitle></leftTitle>
+            <leftSideView>1</leftSideView>
+            <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
@@ -581,7 +581,7 @@
             <rightTitleI18Key>None</rightTitleI18Key>
             <rightbtnImgPath></rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>true</visible>
             <textChecked>true</textChecked>

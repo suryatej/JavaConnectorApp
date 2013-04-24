@@ -3230,7 +3230,7 @@
                         </xhtmlNormal>
                         <xhtmlNormal_override>false</xhtmlNormal_override>
                     </paddings>
-                    <SText>-Parsing XML files (help_contents of MYSQL)</SText>
+                    <SText>- Parsing properties file/XML </SText>
                     <overridePerferred>
                         <width>true</width>
                         <height>false</height>
@@ -3857,7 +3857,7 @@
                         </xhtmlNormal>
                         <xhtmlNormal_override>false</xhtmlNormal_override>
                     </paddings>
-                    <SText>- Retrieve help_contents based on Categories and Keywords</SText>
+                    <SText>- Retrieve help content for SQL based by Category &amp; Keyword</SText>
                     <overridePerferred>
                         <width>true</width>
                         <height>false</height>

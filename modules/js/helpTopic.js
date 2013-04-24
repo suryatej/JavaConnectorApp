@@ -92,19 +92,13 @@
 	{
 		var URL = null;
 		kony.application.showLoadingScreen("loadskin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
-		
 		//#ifdef desktopweb
 			URL = frmSearchOption.segHelptopic.selectedItems[0].lblHTUrl;
-			kony.application.openURL(URL);
 		//#else
 			URL = frmTopic.segHelptopic.selectedItems[0].lblHTUrl;
-			frmDescription.brwserDesc.requestURLConfig = {
-	            "URL": URL,
-	            "requestMethod": constants.BROWSER_REQUEST_METHOD_GET
-	        };
-			frmDescription.show();
-		//#endif			
-
+		//#endif	
+		
+		kony.application.openURL(URL);
 		kony.application.dismissLoadingScreen();
 	}
 

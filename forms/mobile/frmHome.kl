@@ -504,7 +504,7 @@
             <rightTitleI18Key>None</rightTitleI18Key>
             <rightbtnImgPath></rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>true</visible>
             <textChecked>true</textChecked>
@@ -672,7 +672,7 @@
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
             <background_image></background_image>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <visible>true</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
@@ -1545,11 +1545,11 @@
                 <iphonerc>
                     <left>1</left>
                     <right>1</right>
-                    <top>2</top>
-                    <bottom>0</bottom>
-                    <unit>%</unit>
+                    <top>1</top>
+                    <bottom>1</bottom>
+                    <unit>px</unit>
                 </iphonerc>
-                <iphonerc_override>true</iphonerc_override>
+                <iphonerc_override>false</iphonerc_override>
                 <j2me>
                     <left>0</left>
                     <right>0</right>
@@ -2638,7 +2638,7 @@
                 </xhtmlNormal>
                 <xhtmlNormal_override>false</xhtmlNormal_override>
             </paddings>
-            <SText>-Parsing XML files (help_contents of MYSQL)</SText>
+            <SText>- Parsing properties file/XML </SText>
             <overridePerferred>
                 <width>true</width>
                 <height>false</height>
@@ -3265,7 +3265,7 @@
                 </xhtmlNormal>
                 <xhtmlNormal_override>false</xhtmlNormal_override>
             </paddings>
-            <SText>- Retrieve help_contents based on Categories and Keywords</SText>
+            <SText>- Retrieve help content for SQL based on Category and Keywords</SText>
             <overridePerferred>
                 <width>true</width>
                 <height>false</height>
@@ -3301,7 +3301,9 @@
             <windows8_hoverskin>Skin Defaults</windows8_hoverskin>
             <winphone8_contentalign>middle-left</winphone8_contentalign>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.bbTitleBar</overrideProperties>
+        <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
         <winphone8_intransitionmode>Default</winphone8_intransitionmode>

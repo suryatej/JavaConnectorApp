@@ -48,8 +48,8 @@
         <widgetID>p2kwiet104271605921945</widgetID>
         <createdGAVersion>5.0.0</createdGAVersion>
         <location>
-            <x>5</x>
-            <y>5</y>
+            <x>11</x>
+            <y>4</y>
         </location>
         <size>
             <width>450</width>
@@ -555,7 +555,7 @@
         <tooltip></tooltip>
         <ipad_popupStyle>0</ipad_popupStyle>
         <ipadTitleBarData>
-            <background_image>title.png</background_image>
+            <background_image></background_image>
             <buttonFocusSkinID>Skin Defaults</buttonFocusSkinID>
             <buttonSkinID>Skin Defaults</buttonSkinID>
             <buttonText></buttonText>
@@ -582,8 +582,8 @@
                 <serviceType>0</serviceType>
             </leftImgEvtData>
             <leftPrevTitle>false</leftPrevTitle>
-            <leftSideView>0</leftSideView>
-            <leftTitle></leftTitle>
+            <leftSideView>1</leftSideView>
+            <leftTitle>Back</leftTitle>
             <leftTitleEvtData>
                 <function>None</function>
                 <serviceType>0</serviceType>
@@ -599,7 +599,7 @@
             <rightTitleI18Key>None</rightTitleI18Key>
             <rightbtnImgPath></rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>true</visible>
             <textChecked>true</textChecked>
@@ -1483,7 +1483,7 @@
                 </evtSequence>
             </iphone_onEditing>
             <iphone_editStyle>SEGUI_EDITING_STYLE_NONE</iphone_editStyle>
-            <ipad_executeonClosure>2</ipad_executeonClosure>
+            <ipad_executeonClosure>0</ipad_executeonClosure>
             <ipad_enableDictionary>false</ipad_enableDictionary>
             <ipad_npi>true</ipad_npi>
             <ipad_pi_color>0</ipad_pi_color>

@@ -1,8 +1,7 @@
 
 
 /* global Data */
- gVisit_Cat = 0;
- gVisit_Key = 0;
+ gVisit = 0;
 	
 	
 /*
@@ -14,7 +13,7 @@
 */
 	
 	function searchByHelpCategory() {
-		gVisit_Cat = 1;
+		gVisit = 0;
 	    var mysqlhelpcategory_inputparam = {};
 	    mysqlhelpcategory_inputparam["serviceID"] = "helpcategory_mysql";
 	    mysqlhelpcategory_inputparam["httpheaders"] = {};
@@ -61,7 +60,7 @@
 			else{
 					alert("Cannot find host on this network connection,Please check network & try again.");
 					frmCategory.lblInfo.text = "Cannot find host on this network connection,Please check network & try again.";
-					gVisit_Cat = 2;
+					gVisit = 1;
 					hbxFooterPage.setVisibility(false);	
 		           	kony.application.dismissLoadingScreen();
 		           	return;
@@ -73,7 +72,7 @@
 	
 		function navToFrmCategory(){			
 				
-			if(gVisit_Cat == 0 || gVisit_Cat == 2)
+			if(gVisit == 1)
 			{
 				searchByHelpCategory();
 			}

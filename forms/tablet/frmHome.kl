@@ -537,7 +537,7 @@
         <tooltip></tooltip>
         <ipad_popupStyle>0</ipad_popupStyle>
         <ipadTitleBarData>
-            <background_image>title.png</background_image>
+            <background_image></background_image>
             <buttonFocusSkinID>Skin Defaults</buttonFocusSkinID>
             <buttonSkinID>Skin Defaults</buttonSkinID>
             <buttonText></buttonText>
@@ -581,7 +581,7 @@
             <rightTitleI18Key>None</rightTitleI18Key>
             <rightbtnImgPath></rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>true</visible>
             <textChecked>true</textChecked>
@@ -2638,7 +2638,7 @@
                 </xhtmlNormal>
                 <xhtmlNormal_override>false</xhtmlNormal_override>
             </paddings>
-            <SText>-Parsing XML files (help_contents of MYSQL)</SText>
+            <SText>- Parsing properties file/XML </SText>
             <overridePerferred>
                 <width>true</width>
                 <height>false</height>
@@ -3265,7 +3265,7 @@
                 </xhtmlNormal>
                 <xhtmlNormal_override>false</xhtmlNormal_override>
             </paddings>
-            <SText>- Retrieve help_contents based on Categories and Keywords</SText>
+            <SText>- Retrieve help content for SQL based by Category &amp; Keyword</SText>
             <overridePerferred>
                 <width>true</width>
                 <height>false</height>
