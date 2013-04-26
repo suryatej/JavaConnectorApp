@@ -59,7 +59,7 @@
             <width>100</width>
             <height>100</height>
         </sizePercent>
-        <skinId>frmNative</skinId>
+        <skinId>sknFrmFormBgImg</skinId>
         <focusSkinId>Skin Defaults</focusSkinId>
         <localeId>None</localeId>
         <visible>true</visible>
@@ -581,7 +581,7 @@
             <rightTitleI18Key>None</rightTitleI18Key>
             <rightbtnImgPath></rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
-            <skinID>titleBar</skinID>
+            <skinID>sknTitleBarSampleApp</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>true</visible>
             <textChecked>true</textChecked>
@@ -1349,7 +1349,7 @@
                 <updatedToNewTableRowData>true</updatedToNewTableRowData>
                 <updatedToNewImageData>true</updatedToNewImageData>
             </choiceData>
-            <widgetSkin>segSkin</widgetSkin>
+            <widgetSkin>sknSeg2NormalSampleApp</widgetSkin>
             <rowSkin>Skin Defaults</rowSkin>
             <rowFocusSkin>Skin Defaults</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
@@ -1600,7 +1600,7 @@
                     <ipad>
                         <left>1</left>
                         <right>1</right>
-                        <top>1</top>
+                        <top>5</top>
                         <bottom>1</bottom>
                         <unit>px</unit>
                     </ipad>
@@ -1857,13 +1857,13 @@
                     </desktop_web>
                     <desktop_web_override>true</desktop_web_override>
                     <ipad>
-                        <left>7</left>
-                        <right>7</right>
-                        <top>13</top>
-                        <bottom>13</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>5</top>
+                        <bottom>0</bottom>
                         <unit>px</unit>
                     </ipad>
-                    <ipad_override>false</ipad_override>
+                    <ipad_override>true</ipad_override>
                     <iphonerc>
                         <left>6</left>
                         <right>6</right>

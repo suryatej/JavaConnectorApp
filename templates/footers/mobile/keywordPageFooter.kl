@@ -707,9 +707,9 @@
         <spa_noCache>true</spa_noCache>
         <spa_onLoadJSEvent></spa_onLoadJSEvent>
         <spa_unLoadJSEvent></spa_unLoadJSEvent>
-        <spa_popup_transition>None</spa_popup_transition>
+        <spa_popup_transition>none</spa_popup_transition>
         <spa_deviceOrientation>0</spa_deviceOrientation>
-        <spa_out_popup_transition>None</spa_out_popup_transition>
+        <spa_out_popup_transition>none</spa_out_popup_transition>
         <spa_scroll_bounce>true</spa_scroll_bounce>
         <spa_form_transparency></spa_form_transparency>
         <spa_onOrientation_root>
@@ -768,8 +768,8 @@
                 <width>100</width>
                 <height>11</height>
             </sizePercent>
-            <skinId>Skin Defaults</skinId>
-            <focusSkinId>Skin Defaults</focusSkinId>
+            <skinId>hbxFooterSkin</skinId>
+            <focusSkinId>hbxFooterSkin</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>
@@ -1009,13 +1009,13 @@
                 <spaBBNth_override>false</spaBBNth_override>
                 <spaBB_override>false</spaBB_override>
                 <spaIphone>
-                    <left>0</left>
-                    <right>0</right>
-                    <top>0</top>
-                    <bottom>0</bottom>
+                    <left>1</left>
+                    <right>1</right>
+                    <top>1</top>
+                    <bottom>1</bottom>
                     <unit>%</unit>
                 </spaIphone>
-                <spaIphone_override>false</spaIphone_override>
+                <spaIphone_override>true</spaIphone_override>
                 <spaWindows>
                     <left>0</left>
                     <right>0</right>
@@ -1400,7 +1400,7 @@
                     <width>33</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>Skin Defaults</skinId>
+                <skinId>vbxTransperent</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -1646,10 +1646,10 @@
                     <spaBBNth_override>false</spaBBNth_override>
                     <spaBB_override>false</spaBB_override>
                     <spaIphone>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaIphone>
                     <spaIphone_override>false</spaIphone_override>
@@ -1887,7 +1887,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaAndroid>
-                    <spaAndroid_override>true</spaAndroid_override>
+                    <spaAndroid_override>false</spaAndroid_override>
                     <spaBB>
                         <left>0</left>
                         <right>0</right>
@@ -2042,7 +2042,7 @@
                         <width>100</width>
                         <height>100</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>hbxFooterSkin</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -2283,13 +2283,13 @@
                         <spaBBNth_override>false</spaBBNth_override>
                         <spaBB_override>false</spaBB_override>
                         <spaIphone>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </spaIphone>
-                        <spaIphone_override>false</spaIphone_override>
+                        <spaIphone_override>true</spaIphone_override>
                         <spaWindows>
                             <left>0</left>
                             <right>0</right>
@@ -2524,7 +2524,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaAndroid>
-                        <spaAndroid_override>true</spaAndroid_override>
+                        <spaAndroid_override>false</spaAndroid_override>
                         <spaBB>
                             <left>0</left>
                             <right>0</right>
@@ -2929,7 +2929,7 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </spaIphone>
-                            <spaIphone_override>false</spaIphone_override>
+                            <spaIphone_override>true</spaIphone_override>
                             <spaWindows>
                                 <left>0</left>
                                 <right>0</right>
@@ -3164,7 +3164,7 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </spaAndroid>
-                            <spaAndroid_override>true</spaAndroid_override>
+                            <spaAndroid_override>false</spaAndroid_override>
                             <spaBB>
                                 <left>0</left>
                                 <right>0</right>
@@ -3252,8 +3252,8 @@
                             <height>false</height>
                         </overridePerferred>
                         <contentAlign>1</contentAlign>
-                        <defaultImageText></defaultImageText>
-                        <animationText></animationText>
+                        <defaultImageText>arwrightd.png</defaultImageText>
+                        <animationText>arwrightd.png</animationText>
                         <scale_mode>1</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>
                         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
@@ -3368,7 +3368,7 @@
                     <width>33</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>Skin Defaults</skinId>
+                <skinId>vbxTransperent</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -3614,10 +3614,10 @@
                     <spaBBNth_override>false</spaBBNth_override>
                     <spaBB_override>false</spaBB_override>
                     <spaIphone>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaIphone>
                     <spaIphone_override>false</spaIphone_override>
@@ -3855,7 +3855,7 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaAndroid>
-                    <spaAndroid_override>true</spaAndroid_override>
+                    <spaAndroid_override>false</spaAndroid_override>
                     <spaBB>
                         <left>0</left>
                         <right>0</right>
@@ -4010,7 +4010,7 @@
                         <width>100</width>
                         <height>100</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>hbxFooterSkin</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -4251,13 +4251,13 @@
                         <spaBBNth_override>false</spaBBNth_override>
                         <spaBB_override>false</spaBB_override>
                         <spaIphone>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </spaIphone>
-                        <spaIphone_override>false</spaIphone_override>
+                        <spaIphone_override>true</spaIphone_override>
                         <spaWindows>
                             <left>0</left>
                             <right>0</right>
@@ -4492,7 +4492,7 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaAndroid>
-                        <spaAndroid_override>true</spaAndroid_override>
+                        <spaAndroid_override>false</spaAndroid_override>
                         <spaBB>
                             <left>0</left>
                             <right>0</right>
@@ -4897,7 +4897,7 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </spaIphone>
-                            <spaIphone_override>false</spaIphone_override>
+                            <spaIphone_override>true</spaIphone_override>
                             <spaWindows>
                                 <left>0</left>
                                 <right>0</right>
@@ -5132,7 +5132,7 @@
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </spaAndroid>
-                            <spaAndroid_override>true</spaAndroid_override>
+                            <spaAndroid_override>false</spaAndroid_override>
                             <spaBB>
                                 <left>0</left>
                                 <right>0</right>
@@ -5220,8 +5220,8 @@
                             <height>false</height>
                         </overridePerferred>
                         <contentAlign>1</contentAlign>
-                        <defaultImageText></defaultImageText>
-                        <animationText></animationText>
+                        <defaultImageText>arwleftd.png</defaultImageText>
+                        <animationText>arwleftd.png</animationText>
                         <scale_mode>1</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>
                         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
@@ -5336,7 +5336,7 @@
                     <width>34</width>
                     <height>100</height>
                 </sizePercent>
-                <skinId>Skin Defaults</skinId>
+                <skinId>vbxTransperent</skinId>
                 <focusSkinId>Skin Defaults</focusSkinId>
                 <localeId>None</localeId>
                 <visible>true</visible>
@@ -5582,13 +5582,13 @@
                     <spaBBNth_override>false</spaBBNth_override>
                     <spaBB_override>false</spaBB_override>
                     <spaIphone>
-                        <left>0</left>
-                        <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <left>1</left>
+                        <right>1</right>
+                        <top>1</top>
+                        <bottom>1</bottom>
                         <unit>%</unit>
                     </spaIphone>
-                    <spaIphone_override>false</spaIphone_override>
+                    <spaIphone_override>true</spaIphone_override>
                     <spaWindows>
                         <left>0</left>
                         <right>0</right>
@@ -5954,7 +5954,7 @@
                         <width>100</width>
                         <height>100</height>
                     </sizePercent>
-                    <skinId>Skin Defaults</skinId>
+                    <skinId>hbxFooterSkin</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -6195,13 +6195,13 @@
                         <spaBBNth_override>false</spaBBNth_override>
                         <spaBB_override>false</spaBB_override>
                         <spaIphone>
-                            <left>0</left>
-                            <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
+                            <left>1</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <bottom>1</bottom>
                             <unit>%</unit>
                         </spaIphone>
-                        <spaIphone_override>false</spaIphone_override>
+                        <spaIphone_override>true</spaIphone_override>
                         <spaWindows>
                             <left>0</left>
                             <right>0</right>
@@ -6826,13 +6826,13 @@
                             <spaBBNth_override>false</spaBBNth_override>
                             <spaBB_override>false</spaBB_override>
                             <spaIphone>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </spaIphone>
-                            <spaIphone_override>false</spaIphone_override>
+                            <spaIphone_override>true</spaIphone_override>
                             <spaWindows>
                                 <left>0</left>
                                 <right>0</right>
@@ -7061,10 +7061,10 @@
                             </xhtmlAdvBB>
                             <xhtmlAdvBB_override>true</xhtmlAdvBB_override>
                             <spaAndroid>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>2</top>
-                                <bottom>2</bottom>
+                                <left>6</left>
+                                <right>6</right>
+                                <top>14</top>
+                                <bottom>14</bottom>
                                 <unit>%</unit>
                             </spaAndroid>
                             <spaAndroid_override>false</spaAndroid_override>
@@ -7085,10 +7085,10 @@
                             <spaBBNth_override>false</spaBBNth_override>
                             <spaBB_override>false</spaBB_override>
                             <spaIphone>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>2</top>
-                                <bottom>2</bottom>
+                                <left>6</left>
+                                <right>6</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>%</unit>
                             </spaIphone>
                             <spaIphone_override>false</spaIphone_override>
@@ -7453,13 +7453,13 @@
                             <spaBBNth_override>false</spaBBNth_override>
                             <spaBB_override>false</spaBB_override>
                             <spaIphone>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </spaIphone>
-                            <spaIphone_override>false</spaIphone_override>
+                            <spaIphone_override>true</spaIphone_override>
                             <spaWindows>
                                 <left>0</left>
                                 <right>0</right>
@@ -7688,10 +7688,10 @@
                             </xhtmlAdvBB>
                             <xhtmlAdvBB_override>false</xhtmlAdvBB_override>
                             <spaAndroid>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>2</top>
-                                <bottom>2</bottom>
+                                <left>6</left>
+                                <right>6</right>
+                                <top>14</top>
+                                <bottom>14</bottom>
                                 <unit>%</unit>
                             </spaAndroid>
                             <spaAndroid_override>false</spaAndroid_override>
@@ -7712,10 +7712,10 @@
                             <spaBBNth_override>false</spaBBNth_override>
                             <spaBB_override>false</spaBB_override>
                             <spaIphone>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>2</top>
-                                <bottom>2</bottom>
+                                <left>6</left>
+                                <right>6</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>%</unit>
                             </spaIphone>
                             <spaIphone_override>false</spaIphone_override>
@@ -8081,13 +8081,13 @@
                             <spaBBNth_override>false</spaBBNth_override>
                             <spaBB_override>false</spaBB_override>
                             <spaIphone>
-                                <left>0</left>
-                                <right>0</right>
-                                <top>0</top>
-                                <bottom>0</bottom>
+                                <left>1</left>
+                                <right>1</right>
+                                <top>1</top>
+                                <bottom>1</bottom>
                                 <unit>%</unit>
                             </spaIphone>
-                            <spaIphone_override>false</spaIphone_override>
+                            <spaIphone_override>true</spaIphone_override>
                             <spaWindows>
                                 <left>0</left>
                                 <right>0</right>
@@ -8316,10 +8316,10 @@
                             </xhtmlAdvBB>
                             <xhtmlAdvBB_override>true</xhtmlAdvBB_override>
                             <spaAndroid>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>2</top>
-                                <bottom>2</bottom>
+                                <left>6</left>
+                                <right>6</right>
+                                <top>14</top>
+                                <bottom>14</bottom>
                                 <unit>%</unit>
                             </spaAndroid>
                             <spaAndroid_override>false</spaAndroid_override>
@@ -8340,10 +8340,10 @@
                             <spaBBNth_override>false</spaBBNth_override>
                             <spaBB_override>false</spaBB_override>
                             <spaIphone>
-                                <left>1</left>
-                                <right>1</right>
-                                <top>2</top>
-                                <bottom>2</bottom>
+                                <left>6</left>
+                                <right>6</right>
+                                <top>10</top>
+                                <bottom>10</bottom>
                                 <unit>%</unit>
                             </spaIphone>
                             <spaIphone_override>false</spaIphone_override>

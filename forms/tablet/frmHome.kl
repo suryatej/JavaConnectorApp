@@ -59,7 +59,7 @@
             <width>100</width>
             <height>100</height>
         </sizePercent>
-        <skinId>frmNative</skinId>
+        <skinId>sknFrmFormBgImg</skinId>
         <focusSkinId>Skin Defaults</focusSkinId>
         <localeId>None</localeId>
         <visible>true</visible>
@@ -581,7 +581,7 @@
             <rightTitleI18Key>None</rightTitleI18Key>
             <rightbtnImgPath></rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
-            <skinID>titleBar</skinID>
+            <skinID>sknTitleBarSampleApp</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>true</visible>
             <textChecked>true</textChecked>
@@ -767,8 +767,8 @@
                 <width>100</width>
                 <height>6</height>
             </sizePercent>
-            <skinId>btnNormal</skinId>
-            <focusSkinId>btnFocus</focusSkinId>
+            <skinId>sknBtnNormalSampleApp</skinId>
+            <focusSkinId>sknBtnFocusSampleApp</focusSkinId>
             <localeId>None</localeId>
             <visible>true</visible>
             <rendererData>

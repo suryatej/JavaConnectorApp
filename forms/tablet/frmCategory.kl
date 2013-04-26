@@ -59,7 +59,7 @@
             <width>100</width>
             <height>100</height>
         </sizePercent>
-        <skinId>frmNative</skinId>
+        <skinId>sknFrmFormBgImg</skinId>
         <focusSkinId>Skin Defaults</focusSkinId>
         <localeId>None</localeId>
         <visible>true</visible>
@@ -599,7 +599,7 @@
             <rightTitleI18Key>None</rightTitleI18Key>
             <rightbtnImgPath></rightbtnImgPath>
             <rightbuttonI18Key>None</rightbuttonI18Key>
-            <skinID>titleBar</skinID>
+            <skinID>sknTitleBarSampleApp</skinID>
             <usrDefFunction></usrDefFunction>
             <visible>true</visible>
             <textChecked>true</textChecked>
@@ -2017,7 +2017,7 @@
                 <updatedToNewTableRowData>true</updatedToNewTableRowData>
                 <updatedToNewImageData>true</updatedToNewImageData>
             </choiceData>
-            <widgetSkin>segSkin</widgetSkin>
+            <widgetSkin>sknSeg2NormalSampleApp</widgetSkin>
             <rowSkin>seg2Normal</rowSkin>
             <rowFocusSkin>Skin Defaults</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
