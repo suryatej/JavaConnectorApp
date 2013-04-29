@@ -123,12 +123,12 @@
             <rc_blackberry>true</rc_blackberry>
             <rc_ipad>true</rc_ipad>
             <rc_iphone>true</rc_iphone>
-            <rc_j2me>true</rc_j2me>
-            <rc_palm>true</rc_palm>
-            <rc_symbian>true</rc_symbian>
+            <rc_j2me>false</rc_j2me>
+            <rc_palm>false</rc_palm>
+            <rc_symbian>false</rc_symbian>
             <rc_windows8>true</rc_windows8>
             <rc_winmobile>true</rc_winmobile>
-            <rc_winmobile6x>true</rc_winmobile6x>
+            <rc_winmobile6x>false</rc_winmobile6x>
             <rc_winphone8>true</rc_winphone8>
             <tabspa_ipad>true</tabspa_ipad>
             <tabspa_windows>true</tabspa_windows>
@@ -1389,15 +1389,15 @@
                 <widgetID>p2kwiet104271605922096</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
-                    <x>300</x>
+                    <x>288</x>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>147</width>
+                    <width>159</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>33</width>
+                    <width>36</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>vbxTransperent</skinId>
@@ -2035,14 +2035,14 @@
                         <y>1</y>
                     </location>
                     <size>
-                        <width>145</width>
+                        <width>157</width>
                         <height>46</height>
                     </size>
                     <sizePercent>
                         <width>100</width>
                         <height>100</height>
                     </sizePercent>
-                    <skinId>hbxFooterSkin</skinId>
+                    <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -2666,7 +2666,7 @@
                         </location>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <size>
-                            <width>143</width>
+                            <width>155</width>
                             <height>44</height>
                         </size>
                         <sizePercent>
@@ -3252,8 +3252,8 @@
                             <height>false</height>
                         </overridePerferred>
                         <contentAlign>1</contentAlign>
-                        <defaultImageText>arwrightd.png</defaultImageText>
-                        <animationText>arwrightd.png</animationText>
+                        <defaultImageText>trans1.png</defaultImageText>
+                        <animationText>trans1.png</animationText>
                         <scale_mode>1</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>
                         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
@@ -3361,11 +3361,11 @@
                     <y>1</y>
                 </location>
                 <size>
-                    <width>147</width>
+                    <width>156</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>33</width>
+                    <width>35</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>vbxTransperent</skinId>
@@ -4003,14 +4003,14 @@
                         <y>1</y>
                     </location>
                     <size>
-                        <width>145</width>
+                        <width>154</width>
                         <height>46</height>
                     </size>
                     <sizePercent>
                         <width>100</width>
                         <height>100</height>
                     </sizePercent>
-                    <skinId>hbxFooterSkin</skinId>
+                    <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -4634,7 +4634,7 @@
                         </location>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <size>
-                            <width>143</width>
+                            <width>152</width>
                             <height>44</height>
                         </size>
                         <sizePercent>
@@ -5220,8 +5220,8 @@
                             <height>false</height>
                         </overridePerferred>
                         <contentAlign>1</contentAlign>
-                        <defaultImageText>arwleftd.png</defaultImageText>
-                        <animationText>arwleftd.png</animationText>
+                        <defaultImageText>trans1.png</defaultImageText>
+                        <animationText>trans1.png</animationText>
                         <scale_mode>1</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>
                         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
@@ -5325,15 +5325,15 @@
                 <widgetID>p2kwiet103994549625124</widgetID>
                 <createdGAVersion>5.0.0</createdGAVersion>
                 <location>
-                    <x>149</x>
+                    <x>158</x>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>150</width>
+                    <width>129</width>
                     <height>48</height>
                 </size>
                 <sizePercent>
-                    <width>34</width>
+                    <width>29</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>vbxTransperent</skinId>
@@ -5947,14 +5947,14 @@
                         <y>1</y>
                     </location>
                     <size>
-                        <width>148</width>
+                        <width>127</width>
                         <height>46</height>
                     </size>
                     <sizePercent>
                         <width>100</width>
                         <height>100</height>
                     </sizePercent>
-                    <skinId>hbxFooterSkin</skinId>
+                    <skinId>Skin Defaults</skinId>
                     <focusSkinId>Skin Defaults</focusSkinId>
                     <localeId>None</localeId>
                     <visible>true</visible>
@@ -6578,11 +6578,11 @@
                             <y>1</y>
                         </location>
                         <size>
-                            <width>57</width>
+                            <width>48</width>
                             <height>44</height>
                         </size>
                         <sizePercent>
-                            <width>40</width>
+                            <width>39</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
@@ -6892,13 +6892,13 @@
                         </margins>
                         <paddings>
                             <android>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>15</top>
-                                <bottom>15</bottom>
-                                <unit>px</unit>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
                             </android>
-                            <android_override>false</android_override>
+                            <android_override>true</android_override>
                             <bb>
                                 <left>1</left>
                                 <right>1</right>
@@ -7159,6 +7159,7 @@
                         <parent_wrapping>word</parent_wrapping>
                         <parent_longText>false</parent_longText>
                         <parent_renderAsAnchor>false</parent_renderAsAnchor>
+                        <overrideProperties>KButton.android_contentalignment</overrideProperties>
                         <iphone_wrapping>0</iphone_wrapping>
                         <iphone_contentAlignment>0</iphone_contentAlignment>
                         <iphone_longtext>false</iphone_longtext>
@@ -7170,7 +7171,7 @@
                         <bb_content_align>0</bb_content_align>
                         <j2me_longtext>false</j2me_longtext>
                         <j2me_content_align>0</j2me_content_align>
-                        <android_content_align>0</android_content_align>
+                        <android_content_align>2</android_content_align>
                         <winMobileContentAlign>top-center</winMobileContentAlign>
                         <symbianWrapping>0</symbianWrapping>
                         <symbianContentAlign>0</symbianContentAlign>
@@ -7201,11 +7202,11 @@
                         <widgetID>p2kwiet104271605922074</widgetID>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <location>
-                            <x>59</x>
+                            <x>50</x>
                             <y>1</y>
                         </location>
                         <size>
-                            <width>32</width>
+                            <width>27</width>
                             <height>44</height>
                         </size>
                         <sizePercent>
@@ -7260,13 +7261,13 @@
                         </rendererData>
                         <margins>
                             <android>
-                                <left>0</left>
-                                <right>0</right>
+                                <left>3</left>
+                                <right>3</right>
                                 <top>0</top>
                                 <bottom>0</bottom>
-                                <unit>%</unit>
+                                <unit>px</unit>
                             </android>
-                            <android_override>false</android_override>
+                            <android_override>true</android_override>
                             <bb>
                                 <left>0</left>
                                 <right>0</right>
@@ -7519,13 +7520,13 @@
                         </margins>
                         <paddings>
                             <android>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>15</top>
-                                <bottom>15</bottom>
-                                <unit>px</unit>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
                             </android>
-                            <android_override>false</android_override>
+                            <android_override>true</android_override>
                             <bb>
                                 <left>1</left>
                                 <right>1</right>
@@ -7829,15 +7830,15 @@
                         <widgetID>p2kwiet104271605922077</widgetID>
                         <createdGAVersion>5.0.0</createdGAVersion>
                         <location>
-                            <x>92</x>
+                            <x>78</x>
                             <y>1</y>
                         </location>
                         <size>
-                            <width>55</width>
+                            <width>46</width>
                             <height>44</height>
                         </size>
                         <sizePercent>
-                            <width>38</width>
+                            <width>37</width>
                             <height>100</height>
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
@@ -8147,13 +8148,13 @@
                         </margins>
                         <paddings>
                             <android>
-                                <left>6</left>
-                                <right>6</right>
-                                <top>15</top>
-                                <bottom>15</bottom>
-                                <unit>px</unit>
+                                <left>0</left>
+                                <right>0</right>
+                                <top>0</top>
+                                <bottom>0</bottom>
+                                <unit>%</unit>
                             </android>
-                            <android_override>false</android_override>
+                            <android_override>true</android_override>
                             <bb>
                                 <left>1</left>
                                 <right>1</right>
@@ -8414,6 +8415,7 @@
                         <parent_wrapping>word</parent_wrapping>
                         <parent_longText>false</parent_longText>
                         <parent_renderAsAnchor>false</parent_renderAsAnchor>
+                        <overrideProperties>KButton.android_contentalignment</overrideProperties>
                         <overrideProperties>KLabel.winmobileContentAlign</overrideProperties>
                         <iphone_wrapping>0</iphone_wrapping>
                         <iphone_contentAlignment>0</iphone_contentAlignment>
