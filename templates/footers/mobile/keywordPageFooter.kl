@@ -870,7 +870,7 @@
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </iphonerc>
-                <iphonerc_override>true</iphonerc_override>
+                <iphonerc_override>false</iphonerc_override>
                 <j2me>
                     <left>0</left>
                     <right>0</right>
@@ -967,7 +967,7 @@
                     <unit>px</unit>
                 </winmobile6x>
                 <winmobile6x_override>true</winmobile6x_override>
-                <winmobile_override>true</winmobile_override>
+                <winmobile_override>false</winmobile_override>
                 <winphone8>
                     <left>1</left>
                     <right>1</right>
@@ -975,7 +975,7 @@
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </winphone8>
-                <winphone8_override>true</winphone8_override>
+                <winphone8_override>false</winphone8_override>
                 <xhtmlAdvBB>
                     <left>0</left>
                     <right>0</right>
@@ -1015,7 +1015,7 @@
                     <bottom>1</bottom>
                     <unit>%</unit>
                 </spaIphone>
-                <spaIphone_override>true</spaIphone_override>
+                <spaIphone_override>false</spaIphone_override>
                 <spaWindows>
                     <left>0</left>
                     <right>0</right>
@@ -5220,7 +5220,7 @@
                             <height>false</height>
                         </overridePerferred>
                         <contentAlign>1</contentAlign>
-                        <defaultImageText>trans1.png</defaultImageText>
+                        <defaultImageText>arwleftd.png</defaultImageText>
                         <animationText>trans1.png</animationText>
                         <scale_mode>1</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>

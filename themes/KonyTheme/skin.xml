@@ -15391,7 +15391,7 @@
         <att name="Rightbackground_gradient_bottom_color" value="255,255,255" type="RGB"/>
         <att name="Background_gradient_top_colorSet" value="0" type="int"/>
         <att name="Background_gradient_bottom_colorSet" value="0" type="int"/>
-        <att name="Background_image" value="" type="String"/>
+        <att name="Background_image" value="bg2.png" type="String"/>
         <att name="Right_background_image" value="" type="String"/>
         <att name="Bg_iphone_image" value="" type="String"/>
         <att name="Bg_android_image" value="" type="String"/>
@@ -15879,10 +15879,10 @@
         <att name="FontNameMap" value="XHTML Adv Android,Helvetica Neue" type="map"/>
         <att name="FontNameMap" value="Android,monospace" type="map"/>
         <att name="FontNameMap" value="XHTML Adv Blackberry,Helvetica Neue" type="map"/>
-        <att name="FontNameMap" value="IPhone,HelveticaNeue" type="map"/>
         <att name="FontNameMap" value="XHTML Adv IPhone,Helvetica Neue" type="map"/>
-        <att name="FontNameMap" value="Android Rich Client Tablet,monospace" type="map"/>
+        <att name="FontNameMap" value="IPhone,HelveticaNeue" type="map"/>
         <att name="FontNameMap" value="PlayBook,BBClarity" type="map"/>
+        <att name="FontNameMap" value="Android Rich Client Tablet,monospace" type="map"/>
         <att name="FontNameMap" value="Blackberry,BBClarity" type="map"/>
         <att name="ApplicablePlatforms" value="111110011111011111111111111111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
