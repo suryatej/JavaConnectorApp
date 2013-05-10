@@ -49,8 +49,15 @@
 	                	frmSearchOption.show();
 	                //#else
 		                frmCategory.segHelpCategory.setData(hcArray);
-		                hbxFooterPage.setVisibility(true);
+		                
 		                frmCategory.lblInfo.text = "Select a category for respective HelpTopics: ";
+		                //#ifdef ipad
+		                	frmCategory.segHelpCategory.selectedIndex=[0,0];
+		                	helpTopicDetails();
+		                //#else
+		                	hbxFooterPage.setVisibility(true);
+		                //#endif
+		               
 		                frmCategory.show();	                	
 	                //#endif             
 
@@ -61,7 +68,13 @@
 					alert("Cannot find host on this network connection,Please check network & try again.");
 					frmCategory.lblInfo.text = "Cannot find host on this network connection,Please check network & try again.";
 					gVisit = 1;
-					hbxFooterPage.setVisibility(false);	
+					//#ifdef ipad
+						
+					//#else
+						hbxFooterPage.setVisibility(false);	
+					//#endif
+					
+					
 		           	kony.application.dismissLoadingScreen();
 		           	return;
 				}

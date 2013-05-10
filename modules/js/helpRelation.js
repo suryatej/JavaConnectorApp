@@ -15,7 +15,11 @@
 			frmSearchOption.lblInfo.setVisibility(false); 
 		//#else
 			KeywordID = frmKeywords["segHelpKeyword"]["selectedItems"][0]["hk_id"];
-			frmTopic.lblInfo.setVisibility(false);
+			//#ifdef ipad
+				frmKeywords.lblInfo.setVisibility(false);
+			//#else
+				frmTopic.lblInfo.setVisibility(false);
+			//#endif
 		//#endif
 		
 	    var mysqlhelprelation_inputparam = {};
@@ -51,8 +55,12 @@
 	            	frmSearchOption.segHelptopic.setData(hlArray);
 	            	frmSearchOption.show();
 	            //#else
-		            frmTopic.segHelptopic.setData(hlArray);
-		            frmTopic.show();	            	
+		              //#ifdef ipad
+							frmKeywords.segHelptopic.setData(hlArray);
+						//#else
+							frmTopic.segHelptopic.setData(hlArray);
+		            		frmTopic.show();
+						//#endif            	
 	            //#endif
 	            
 	            kony.application.dismissLoadingScreen();
@@ -81,7 +89,21 @@
 		else
 		    navToFrmKeyword();
 	}	
+
 	
+	function navPopupSrch()
+	{
+		//#ifdef ipad
+			var curFrm = kony.application.getCurrentForm();	
+			var popupSettingsContext={"widget":curFrm.lblpopupAnchor,"anchor":"bottom","sizetoanchorwidth":true};       
+			popupSrch.setContext(popupSettingsContext);
+		//#endif
+
+		popupSrch.show();
+	}
 	
+	function dismissPopUp()
+	{
+			popupSrch.dismiss();
 	
-	
+	}

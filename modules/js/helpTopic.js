@@ -15,7 +15,12 @@
 			frmSearchOption.lblInfo.setVisibility(false); 
 		//#else
 			CategoryID = frmCategory["segHelpCategory"]["selectedItems"][0]["hc_id"];
-			frmTopic.lblInfo.setVisibility(false);
+			//#ifdef ipad
+				frmCategory.lblInfo.setVisibility(false);
+			//#else
+				frmTopic.lblInfo.setVisibility(false);
+			//#endif
+			
 		//#endif
 		
 	    var mysqlhelptopic_inputparam = {};
@@ -54,8 +59,14 @@
 								frmSearchOption.lblInfo.setVisibility(true);
 			            		frmSearchOption.lblInfo.text = "Topic detail is not available."
 			           		//#else
-			            		frmTopic.lblInfo.setVisibility(true);
-			            		frmTopic.lblInfo.text = "Topic detail is not available."									
+									//#ifdef ipad
+										frmCategory.lblInfo.setVisibility(true);
+										frmCategory.lblInfo.text = "Topic detail is not available.";
+									//#else
+										frmTopic.lblInfo.setVisibility(true);
+			            				frmTopic.lblInfo.text = "Topic detail is not available.";
+									//#endif
+											            							
 							//#endif
             			}
 		            //#endif
@@ -72,8 +83,13 @@
 		            	frmSearchOption.segHelptopic.setData(htArray);
 		            	frmSearchOption.show();
 		            //#else
-		            	frmTopic.segHelptopic.setData(htArray);
-		            	frmTopic.show();
+						//#ifdef ipad
+							frmCategory.segHelptopic.setData(htArray);
+						//#else
+							frmTopic.segHelptopic.setData(htArray);
+		            		frmTopic.show();
+						//#endif
+	            	
 		            //#endif
 		            kony.application.dismissLoadingScreen();
 		        }
@@ -90,14 +106,19 @@
 	
 	function topicDescription()
 	{
-		var URL = null;
+		var URL = null,currForm = null ;
 		kony.application.showLoadingScreen("loadskin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
 		//#ifdef desktopweb
 			URL = frmSearchOption.segHelptopic.selectedItems[0].lblHTUrl;
 		//#else
-			URL = frmTopic.segHelptopic.selectedItems[0].lblHTUrl;
+			//#ifdef ipad
+				currForm = kony.application.getCurrentForm();
+				URL = currForm.segHelptopic.selectedItems[0].lblHTUrl;
+			//#else
+				URL = frmTopic.segHelptopic.selectedItems[0].lblHTUrl;
+			//#endif
+											
 		//#endif	
-		
 		kony.application.openURL(URL);
 		kony.application.dismissLoadingScreen();
 	}

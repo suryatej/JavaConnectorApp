@@ -14,6 +14,7 @@
     <container type="form" id="frmKeywords" displayname="Form"/>
     <container type="form" id="frmSearchOption" displayname="Form"/>
     <container type="form" id="frmTopic" displayname="Form"/>
+    <container type="dialog" id="popupSrch" displayname="Popup"/>
     <globalsequences/>
     <skins/>
 </application>
