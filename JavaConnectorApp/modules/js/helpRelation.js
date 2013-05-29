@@ -10,16 +10,12 @@
 	function serviceHelpRelation() {
 	
 		var KeywordID = null;
-		//#ifdef desktopweb
-			KeywordID = frmSearchOption["segHelpKeyword"]["selectedItems"][0]["hk_id"];
-			frmSearchOption.lblInfo.setVisibility(false); 
-		//#else
+		
 			KeywordID = frmKeywords["segHelpKeyword"]["selectedItems"][0]["hk_id"];
 			if(channel==="tablet")
 				frmKeywords.lblInfo.setVisibility(false);
 			else
 				frmTopic.lblInfo.setVisibility(false);
-		//#endif
 		
 	    var mysqlhelprelation_inputparam = {};
 	    mysqlhelprelation_inputparam["serviceID"] = "helprelation_mysql";
@@ -50,18 +46,14 @@
 	                    })
 	                }	                
 	            }
-	            //#ifdef desktopweb
-	            	frmSearchOption.segHelptopic.setData(hlArray);
-	            	frmSearchOption.show();
-	            //#else
+	          
 		              if(channel==="tablet")
 							frmKeywords.segHelptopic.setData(hlArray);
 						else{
 							frmTopic.segHelptopic.setData(hlArray);
 		            		frmTopic.show();
 						}            	
-	            //#endif
-	            
+	                   
 	            kony.application.dismissLoadingScreen();
 	        }
 			else{

@@ -10,17 +10,12 @@
 	function helpTopicDetails()
 	{
 		var CategoryID = null;
-		//#ifdef desktopweb
-			CategoryID = frmSearchOption["segHelpCategory"]["selectedItems"][0]["hc_id"];
-			frmSearchOption.lblInfo.setVisibility(false); 
-		//#else
-			CategoryID = frmCategory["segHelpCategory"]["selectedItems"][0]["hc_id"];
+		CategoryID = frmCategory["segHelpCategory"]["selectedItems"][0]["hc_id"];
 			if(channel==="tablet")
 				frmCategory.lblInfo.setVisibility(false);
 			else
 				frmTopic.lblInfo.setVisibility(false);
-		//#endif
-		
+			
 	    var mysqlhelptopic_inputparam = {};
 	    mysqlhelptopic_inputparam["serviceID"] = "helptopic_mysql";
 	    mysqlhelptopic_inputparam["id"] = CategoryID;
@@ -53,22 +48,15 @@
 		            //#else
 						kony.application.dismissLoadingScreen();		
 		            	if(mysqlHelpTopicData["helpTopic"].length == 0){
-			            	//#ifdef desktopweb
-								frmSearchOption.lblInfo.setVisibility(true);
-			            		frmSearchOption.lblInfo.text = "Topic detail is not available."
-			           		//#else
-									if(channel==="tablet"){
+			            	  	if(channel==="tablet"){
 										frmCategory.lblInfo.setVisibility(true);
 										frmCategory.lblInfo.text = "Topic detail is not available.";
 									}else{
 										frmTopic.lblInfo.setVisibility(true);
 			            				frmTopic.lblInfo.text = "Topic detail is not available.";
 									}
-							//#endif
-            			}
+						}
 		            //#endif
-		            
-
 		            for (var i = 0; i < mysqlHelpTopicData["helpTopic"].length; i++) {
 		            	htArray.push({
 		                    "lblHTName": mysqlHelpTopicData["helpTopic"][i]["name"],
@@ -76,19 +64,13 @@
 		                })
 		            }		            
 		            }
-		            //#ifdef desktopweb
-		            	frmSearchOption.segHelptopic.setData(htArray);
-		            	frmSearchOption.show();
-		            //#else
 						if(channel==="tablet")
 							frmCategory.segHelptopic.setData(htArray);
 						else{
 							frmTopic.segHelptopic.setData(htArray);
 		            		frmTopic.show();
 						}
-	            	
-		            //#endif
-		            kony.application.dismissLoadingScreen();
+        	       kony.application.dismissLoadingScreen();
 		        }
 				else{
 					alert("Cannot find host on this network connection,Please check network & try again.");					    	
@@ -105,15 +87,13 @@
 	{
 		var URL = null,currForm = null ;
 		kony.application.showLoadingScreen("loadskin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
-		//#ifdef desktopweb
-			URL = frmSearchOption.segHelptopic.selectedItems[0].lblHTUrl;
-		//#else
+		
 			if(channel==="tablet"){
 				currForm = kony.application.getCurrentForm();
 				URL = currForm.segHelptopic.selectedItems[0].lblHTUrl;
 			}else
 				URL = frmTopic.segHelptopic.selectedItems[0].lblHTUrl;
-		//#endif	
+		
 		kony.application.openURL(URL);
 		kony.application.dismissLoadingScreen();
 	}

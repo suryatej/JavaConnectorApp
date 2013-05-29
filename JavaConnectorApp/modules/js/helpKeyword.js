@@ -38,22 +38,14 @@
 		                        "lblHelpKeyword": mysqlHelpKeywordData["helpKeyword"][i]["hkname"]
 		                    })
 		                }
-		                
-		                //#ifdef desktopweb
-		                	frmSearchOption.segHelpKeyword.setData(ghkData);
-		                	kony.application.dismissLoadingScreen();
-		                //#else
-			                frmKeywords.lblInfo.text = "Select keyword for help topic : ";
+		               frmKeywords.lblInfo.text = "Select keyword for help topic : ";
 			                if(channel==="tablet")
 								frmKeywords.hbxFooterPage.setVisibility(true);
 							else
 								hbxFooterPage.setVisibility(true);
 							gNoOfPages = Math.ceil((ghkData.length)/40);		                            
 			               paginationNext();		                	
-		                //#endif
-		                
-
-		            }		       
+		           }		       
 				}
 				else{
 					alert("Cannot find host on this network connection,Please check network & try again.");
@@ -126,8 +118,10 @@
 					nextHelpKeywordData.push(ghkData[i]);
 			}
 			frmKeywords.segHelpKeyword.setData(nextHelpKeywordData);
+			if(channel==="tablet"){
 			frmKeywords.segHelpKeyword.selectedIndex=[0,0];
 			serviceHelpRelation();
+			}
 			frmKeywords.show();
 			kony.application.dismissLoadingScreen();
 		}

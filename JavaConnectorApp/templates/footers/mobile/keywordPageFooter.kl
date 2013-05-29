@@ -4643,8 +4643,8 @@
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
-                        <referenceWidth></referenceWidth>
-                        <referenceHeight></referenceHeight>
+                        <referenceWidth>40</referenceWidth>
+                        <referenceHeight>25</referenceHeight>
                         <localeId>None</localeId>
                         <visible>true</visible>
                         <rendererData>
@@ -5222,7 +5222,7 @@
                         <contentAlign>1</contentAlign>
                         <defaultImageText>arwleftd.png</defaultImageText>
                         <animationText>trans1.png</animationText>
-                        <scale_mode>1</scale_mode>
+                        <scale_mode>0</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>
                         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                         <iphone_glossy_effect>0</iphone_glossy_effect>

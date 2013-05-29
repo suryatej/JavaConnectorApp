@@ -42,14 +42,7 @@
 	                    })
 	                }
 	                
-	                //#ifdef desktopweb
-	                	frmSearchOption.segHelpCategory.setData(hcArray);
-	                	kony.application.dismissLoadingScreen();
-	                	//frmSearchOption.lblInfo.text = "Select a category for respective HelpTopics: ";
-	                	frmSearchOption.show();
-	                //#else
 		                frmCategory.segHelpCategory.setData(hcArray);
-		                
 		                frmCategory.lblInfo.text = "Select a category for respective HelpTopics: ";
 		                if(channel==="tablet"){
 		                	frmCategory.segHelpCategory.selectedIndex=[0,0];
@@ -58,10 +51,8 @@
 		              	else
 		                	hbxFooterPage.setVisibility(true);
 		                      
-		                frmCategory.show();	                	
-	                //#endif             
-
-	           		kony.application.dismissLoadingScreen();
+		             frmCategory.show();	                	
+	                 kony.application.dismissLoadingScreen();
 	            }
 	        }
 			else{
