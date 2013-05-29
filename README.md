@@ -1,7 +1,7 @@
 JavaConnectorApp
 ================
 
-This application is showcase of java service which reads the properties/xml files.
+This application to showcase Java Service which reads the properties/xml files.
 
 Project Owner: Malla Nandikonda malla.nandikonda@kony.com
 
