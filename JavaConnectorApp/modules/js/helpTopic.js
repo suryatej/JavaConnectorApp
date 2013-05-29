@@ -15,12 +15,10 @@
 			frmSearchOption.lblInfo.setVisibility(false); 
 		//#else
 			CategoryID = frmCategory["segHelpCategory"]["selectedItems"][0]["hc_id"];
-			//#ifdef ipad
+			if(channel==="tablet")
 				frmCategory.lblInfo.setVisibility(false);
-			//#else
+			else
 				frmTopic.lblInfo.setVisibility(false);
-			//#endif
-			
 		//#endif
 		
 	    var mysqlhelptopic_inputparam = {};
@@ -59,14 +57,13 @@
 								frmSearchOption.lblInfo.setVisibility(true);
 			            		frmSearchOption.lblInfo.text = "Topic detail is not available."
 			           		//#else
-									//#ifdef ipad
+									if(channel==="tablet"){
 										frmCategory.lblInfo.setVisibility(true);
 										frmCategory.lblInfo.text = "Topic detail is not available.";
-									//#else
+									}else{
 										frmTopic.lblInfo.setVisibility(true);
 			            				frmTopic.lblInfo.text = "Topic detail is not available.";
-									//#endif
-											            							
+									}
 							//#endif
             			}
 		            //#endif
@@ -83,12 +80,12 @@
 		            	frmSearchOption.segHelptopic.setData(htArray);
 		            	frmSearchOption.show();
 		            //#else
-						//#ifdef ipad
+						if(channel==="tablet")
 							frmCategory.segHelptopic.setData(htArray);
-						//#else
+						else{
 							frmTopic.segHelptopic.setData(htArray);
 		            		frmTopic.show();
-						//#endif
+						}
 	            	
 		            //#endif
 		            kony.application.dismissLoadingScreen();
@@ -111,13 +108,11 @@
 		//#ifdef desktopweb
 			URL = frmSearchOption.segHelptopic.selectedItems[0].lblHTUrl;
 		//#else
-			//#ifdef ipad
+			if(channel==="tablet"){
 				currForm = kony.application.getCurrentForm();
 				URL = currForm.segHelptopic.selectedItems[0].lblHTUrl;
-			//#else
+			}else
 				URL = frmTopic.segHelptopic.selectedItems[0].lblHTUrl;
-			//#endif
-											
 		//#endif	
 		kony.application.openURL(URL);
 		kony.application.dismissLoadingScreen();

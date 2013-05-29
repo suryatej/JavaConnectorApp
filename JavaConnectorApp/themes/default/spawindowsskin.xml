@@ -72,6 +72,8 @@
         <att name="Repeat_vertically_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
         <att name="CustomCss" value="false" type="Boolean"/>
+        <att name="Enable_bg_size" value="false" type="Boolean"/>
+        <att name="Background-size" value="0" type="int"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>

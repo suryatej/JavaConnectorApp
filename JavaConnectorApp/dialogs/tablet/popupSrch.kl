@@ -515,7 +515,7 @@
         <iphone_titleBarConfig>renderTitleText</iphone_titleBarConfig>
         <iphoneOutTransDirection>0</iphoneOutTransDirection>
         <iphoneOutTransEffect>0</iphoneOutTransEffect>
-        <iphone_popup_transpcy>100</iphone_popup_transpcy>
+        <iphone_popup_transpcy>30</iphone_popup_transpcy>
         <iphone_orientation>0</iphone_orientation>
         <iphone_footer_overlap>0</iphone_footer_overlap>
         <iphone_footerOverlap>false</iphone_footerOverlap>
@@ -2699,7 +2699,7 @@
                             <width>100</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>lblSkin</skinId>
+                        <skinId>lblPopup</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>
@@ -4010,7 +4010,7 @@
                             <width>100</width>
                             <height>100</height>
                         </sizePercent>
-                        <skinId>lblSkin</skinId>
+                        <skinId>lblPopup</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
                         <localeId>None</localeId>
                         <visible>true</visible>

@@ -44,12 +44,11 @@
 		                	kony.application.dismissLoadingScreen();
 		                //#else
 			                frmKeywords.lblInfo.text = "Select keyword for help topic : ";
-			                //#ifdef ipad
+			                if(channel==="tablet")
 								frmKeywords.hbxFooterPage.setVisibility(true);
-							//#else
+							else
 								hbxFooterPage.setVisibility(true);
-							//#endif
-			                gNoOfPages = Math.ceil((ghkData.length)/40);		                            
+							gNoOfPages = Math.ceil((ghkData.length)/40);		                            
 			               paginationNext();		                	
 		                //#endif
 		                
@@ -60,13 +59,11 @@
 					alert("Cannot find host on this network connection,Please check network & try again.");
 					frmKeywords.lblInfo.text = "Cannot find host on this network connection,Please check network & try again.";
 					gVisit = 1;
-					//#ifdef ipad
+					if(channel==="tablet")
 						frmKeywords.hbxFooterPage.setVisibility(false);
-					//#else
+					else
 						hbxFooterPage.setVisibility(false);
-					//#endif
-					
-		           	kony.application.dismissLoadingScreen();
+					kony.application.dismissLoadingScreen();
 		           	return;
 				}
 			}
@@ -80,54 +77,49 @@
 	*/
 	
 		function paginationNext(){			
-			//#ifdef ipad
+			if(channel==="tablet"){
 				frmKeywords.imgLeftfooter.src = "arwleftd.png";
 				frmKeywords.imgRightfooter.src = "arwrightd.png";	
-			//#else
+			}else{
 				hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "arwleftd.png";
 				hbxFooterPage.vbxRightFooter.hbxRightFooter.imgRightfooter.src = "arwrightd.png";	
-			//#endif
-			
-			
+			}
 			gPageno = gPageno+1;	
 			var absPageno = Math.abs(gPageno);			
 			var absNoOfPages = Math.abs(gNoOfPages);
 			if(absPageno > absNoOfPages){
-				//#ifdef ipad
+				if(channel==="tablet")
 					frmKeywords.imgRightfooter.src = "trans1.png";
-				//#else
+				else
 					hbxFooterPage.vbxRightFooter.hbxRightFooter.imgRightfooter.src = "trans1.png";
-				//#endif
 				gPageno = gPageno-1;
 			 	return;
 			 }
 			gNoOfRows = gNoOfRows+40;
 			var absNoofRows = Math.abs(gNoOfRows);
 			if(absPageno == absNoOfPages)
-				//#ifdef ipad
+				if(channel==="tablet")
 					frmKeywords.imgRightfooter.src = "trans1.png";
-				//#else
+				else
 					hbxFooterPage.vbxRightFooter.hbxRightFooter.imgRightfooter.src = "trans1.png";
-				//#endif
-								
+												
 			if(absPageno == 1){
-				//#ifdef ipad
+				if(channel==="tablet")
 					frmKeywords.imgLeftfooter.src = "trans1.png";
-				//#else
+				else
 					hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "trans1.png";
-				//#endif
+				
 				}
 			else{
 				gFromRow = gFromRow+40;	
 				}
-				//#ifdef ipad
+				if(channel==="tablet"){
 					frmKeywords.lblFrom.text = gPageno.toPrecision();
 					frmKeywords.lblTo.text = gNoOfPages.toPrecision();
-				//#else
+				}else{
 					hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblFrom.text = gPageno.toPrecision();
 					hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblTo.text = gNoOfPages.toPrecision();
-				//#endif
-							
+				}						
 			var nextHelpKeywordData = [];
 			for (var i = gFromRow ; i < gNoOfRows; i++ ){
 				if(ghkData[i]!= null && ghkData[i]!= undefined)
@@ -145,32 +137,30 @@
 		function paginationPrevious()
 		{
 			gPageno = gPageno-1;
-			//#ifdef ipad
+			if(channel==="tablet"){
 				frmKeywords.imgLeftfooter.src = "arwleftd.png";
 				frmKeywords.imgRightfooter.src = "arwrightd.png";	
-			//#else
+			}else{
 				hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "arwleftd.png";
 				hbxFooterPage.vbxRightFooter.hbxRightFooter.imgRightfooter.src = "arwrightd.png";	
-			//#endif
+			}
 			var absPageno = Math.abs(gPageno);
 			if(absPageno < 1){
-				//#ifdef ipad
+				if(channel==="tablet")
 					frmKeywords.imgLeftfooter.src = "trans1.png";
-				//#else
+				else
 					hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "trans1.png";
-				//#endif
 				gPageno = gPageno+1;
 			 	return;
 			 }
 			if(absPageno == 1)
-			//#ifdef ipad
+			if(channel==="tablet"){
 				frmKeywords.imgLeftfooter.src = "trans1.png";
 				frmKeywords.lblFrom.text = gPageno.toPrecision();
-			//#else
+			}else{
 				hbxFooterPage.vbxLeftFooter.hbxLeftFooter.imgLeftfooter.src = "trans1.png";
 				hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblFrom.text = gPageno.toPrecision();
-			//#endif
-						
+			}					
 			gFromRow = gFromRow-40;
 			gNoOfRows = gNoOfRows-40;		
 			var preHelpKeywordData = [];
