@@ -5321,7 +5321,7 @@ popupSrch.lblKey.skin = "lblPopup";</value>
                 <contentAlign>4</contentAlign>
                 <defaultImageText></defaultImageText>
                 <animationText></animationText>
-                <scale_mode>1</scale_mode>
+                <scale_mode>0</scale_mode>
                 <itemSkinId>Skin Defaults</itemSkinId>
                 <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                 <iphone_glossy_effect>0</iphone_glossy_effect>
@@ -5410,11 +5410,11 @@ popupSrch.lblKey.skin = "lblPopup";</value>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>412</width>
+                    <width>417</width>
                     <height>37</height>
                 </size>
                 <sizePercent>
-                    <width>93</width>
+                    <width>94</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>lblNormal</skinId>
@@ -7266,7 +7266,7 @@ popupSrch.lblKey.skin = "lblPopup";</value>
                 <contentAlign>4</contentAlign>
                 <defaultImageText></defaultImageText>
                 <animationText></animationText>
-                <scale_mode>1</scale_mode>
+                <scale_mode>0</scale_mode>
                 <itemSkinId>Skin Defaults</itemSkinId>
                 <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                 <iphone_glossy_effect>0</iphone_glossy_effect>
@@ -7355,11 +7355,11 @@ popupSrch.lblKey.skin = "lblPopup";</value>
                     <y>1</y>
                 </location>
                 <size>
-                    <width>412</width>
+                    <width>417</width>
                     <height>29</height>
                 </size>
                 <sizePercent>
-                    <width>93</width>
+                    <width>94</width>
                     <height>100</height>
                 </sizePercent>
                 <skinId>lblNormal</skinId>
