@@ -73,7 +73,6 @@ function addWidgetsfrmCategory() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 1, 1, 1],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -181,7 +180,6 @@ function addWidgetsfrmCategory() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -197,12 +195,13 @@ function addWidgetsfrmCategory() {
         "scrollDirection": constants.SCROLLBOX_SCROLL_VERTICAL,
         "showScrollbars": true,
         "position": constants.BOX_POSITION_AS_NORMAL,
-        "enableScrollByPage": false
+        "enableScrollByPage": false,
+        "skin": "scrollbxSkin"
     }, {
         "percent": true,
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
-        "containerHeight": 93,
+        "containerHeight": 95,
         "containerHeightReference": constants.SCROLLBOX_HEIGHT_BY_FORM_REFERENCE,
         "marginInPixel": false,
         "paddingInPixel": false,
@@ -224,7 +223,6 @@ function addWidgetsfrmCategory() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -304,7 +302,7 @@ function addWidgetsfrmCategory() {
     var lblHTName = new kony.ui.Label({
         "id": "lblHTName",
         "isVisible": true,
-        "skin": "lblSkin"
+        "skin": "lblWhite"
     }, {
         "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
         "vExpand": false,
@@ -371,7 +369,6 @@ function addWidgetsfrmCategory() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 0, 1, 1],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -407,7 +404,6 @@ function addWidgetsfrmCategory() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX

@@ -45,11 +45,11 @@ function addWidgetsfrmTopic() {
         "separatorThickness": 1,
         "separatorColor": "64646446",
         "showScrollbars": false,
-        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
         "groupCells": false,
         "screenLevelWidget": false,
         "onRowClick": frmTopic_segHelptopic_onRowClick_seq0,
-        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR
+        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
+        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW
     }, {
         "margin": [3, 3, 3, 3],
         "padding": [0, 0, 0, 0],

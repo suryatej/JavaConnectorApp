@@ -70,7 +70,6 @@ function addWidgetsfrmHome() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 1, 1, 1],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -130,7 +129,6 @@ function addWidgetsfrmHome() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 1, 1, 1],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -165,9 +163,9 @@ function addWidgetsfrmHome() {
         "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
         "margin": [0, 2, 0, 0],
         "padding": [0, 0, 0, 0],
-        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
-        "referenceWidth": null,
-        "referenceHeight": null,
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "referenceWidth": 6,
+        "referenceHeight": 6,
         "marginInPixel": false,
         "paddingInPixel": false,
         "containerWeight": 7
@@ -204,7 +202,6 @@ function addWidgetsfrmHome() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 1, 1, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -221,9 +218,9 @@ function addWidgetsfrmHome() {
         "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
         "margin": [0, 2, 0, 0],
         "padding": [0, 0, 0, 0],
-        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
-        "referenceWidth": null,
-        "referenceHeight": null,
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "referenceWidth": 6,
+        "referenceHeight": 6,
         "marginInPixel": false,
         "paddingInPixel": false,
         "containerWeight": 7
@@ -260,7 +257,6 @@ function addWidgetsfrmHome() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 1, 1, 1],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX

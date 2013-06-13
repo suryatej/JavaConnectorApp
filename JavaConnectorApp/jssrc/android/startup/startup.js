@@ -20,6 +20,7 @@ skinsInit();
 
 function appInit(params) {
     initializekeywordPageFooter();
+    kony.application.setAppFooters([hbxFooterPage]);
     frmCategoryGlobals();
     frmHomeGlobals();
     frmKeywordsGlobals();

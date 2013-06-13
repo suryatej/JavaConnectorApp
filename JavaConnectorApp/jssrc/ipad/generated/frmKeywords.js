@@ -86,7 +86,6 @@ function addWidgetsfrmKeywords() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 1, 1, 1],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -187,7 +186,6 @@ function addWidgetsfrmKeywords() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 1, 1, 1],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -201,6 +199,7 @@ function addWidgetsfrmKeywords() {
         "isVisible": true,
         "orientation": constants.BOX_LAYOUT_VERTICAL,
         "scrollDirection": constants.SCROLLBOX_SCROLL_VERTICAL,
+        "skin": "scrollbxSkin",
         "showScrollbars": true,
         "position": constants.BOX_POSITION_AS_NORMAL,
         "enableScrollByPage": false
@@ -228,7 +227,6 @@ function addWidgetsfrmKeywords() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -266,7 +264,6 @@ function addWidgetsfrmKeywords() {
         "margin": [1, 1, 1, 1],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": true,
         "paddingInPixel": true,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -357,7 +354,6 @@ function addWidgetsfrmKeywords() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -412,7 +408,6 @@ function addWidgetsfrmKeywords() {
         "margin": [1, 1, 1, 1],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": true,
         "paddingInPixel": true,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -450,7 +445,6 @@ function addWidgetsfrmKeywords() {
         "margin": [1, 1, 1, 1],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": true,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -539,7 +533,7 @@ function addWidgetsfrmKeywords() {
     var lblHTName = new kony.ui.Label({
         "id": "lblHTName",
         "isVisible": true,
-        "skin": "lblSkin"
+        "skin": "lblWhite"
     }, {
         "widgetAlignment": constants.WIDGET_ALIGN_CENTER,
         "vExpand": false,
@@ -604,7 +598,6 @@ function addWidgetsfrmKeywords() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -640,7 +633,6 @@ function addWidgetsfrmKeywords() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX

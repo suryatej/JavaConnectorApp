@@ -37,11 +37,11 @@ function addWidgetsfrmSearchOption() {
         "separatorThickness": 1,
         "separatorColor": "64646446",
         "showScrollbars": false,
-        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
         "groupCells": false,
         "screenLevelWidget": false,
         "onRowClick": frmSearchOption_segHelpKeyword_onRowClick_seq0,
-        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR
+        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
+        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW
     }, {
         "margin": [4, 10, 4, 4],
         "padding": [0, 0, 0, 0],
@@ -93,7 +93,6 @@ function addWidgetsfrmSearchOption() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 1, 1, 1],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX

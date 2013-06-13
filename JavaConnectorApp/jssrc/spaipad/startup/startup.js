@@ -20,8 +20,6 @@ function appInit(params) {
     frmCategoryGlobals();
     frmHomeGlobals();
     frmKeywordsGlobals();
-    frmSearchOptionGlobals();
-    frmTopicGlobals();
     popupSrchGlobals();
 };
 
@@ -44,7 +42,7 @@ function loadResources() {
 function initializeApp() {
     kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
     kony.application.setApplicationBehaviors({
-        applyMarginPaddingInBCGMode: false
+        applyMarginPaddingInBCGMode: true
     })
     //If default locale is specified. This is set even before any other app life cycle event is called.
     loadResources();

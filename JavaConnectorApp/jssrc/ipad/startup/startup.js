@@ -23,8 +23,6 @@ function appInit(params) {
     frmCategoryGlobals();
     frmHomeGlobals();
     frmKeywordsGlobals();
-    frmSearchOptionGlobals();
-    frmTopicGlobals();
     popupSrchGlobals();
 };
 

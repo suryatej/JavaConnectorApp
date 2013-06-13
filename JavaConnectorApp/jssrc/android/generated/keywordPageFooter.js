@@ -36,7 +36,6 @@ function initializekeywordPageFooter() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -121,7 +120,6 @@ function initializekeywordPageFooter() {
         "margin": [0, 0, 0, 0],
         "padding": [1, 1, 1, 1],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -174,7 +172,6 @@ function initializekeywordPageFooter() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX
@@ -213,7 +210,6 @@ function initializekeywordPageFooter() {
         "margin": [0, 0, 0, 0],
         "padding": [0, 2, 0, 2],
         "vExpand": false,
-        "hExpand": true,
         "marginInPixel": false,
         "paddingInPixel": false,
         "layoutType": constants.CONTAINER_LAYOUT_BOX

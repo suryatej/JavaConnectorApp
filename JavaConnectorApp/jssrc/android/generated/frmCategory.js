@@ -59,11 +59,11 @@ function addWidgetsfrmCategory() {
         "separatorThickness": 1,
         "separatorColor": "64646446",
         "showScrollbars": true,
-        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
         "groupCells": false,
         "screenLevelWidget": true,
         "onRowClick": frmCategory_segHelpCategory_onRowClick_seq0,
-        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR
+        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
+        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW
     }, {
         "margin": [0, 0, 0, 0],
         "padding": [0, 0, 0, 0],
