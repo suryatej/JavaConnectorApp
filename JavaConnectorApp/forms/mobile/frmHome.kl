@@ -3267,7 +3267,7 @@
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>Parsing properties file/XML </SText>
+                <SText>Invoke a Custom Business Component using Java SDK</SText>
                 <overridePerferred>
                     <width>true</width>
                     <height>false</height>
@@ -5212,7 +5212,7 @@
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>Retrieve help content for SQL based on Category and Keywords</SText>
+                <SText>Passing the results from a Custom Business component to the Kony platform</SText>
                 <overridePerferred>
                     <width>true</width>
                     <height>false</height>

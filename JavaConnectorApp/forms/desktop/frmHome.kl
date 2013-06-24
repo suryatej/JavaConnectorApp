@@ -3976,7 +3976,7 @@ popupSrch.lblKey.skin = "lblPopup";</value>
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>Parsing properties file/XML </SText>
+                <SText>Passing the results from a Custom Business component to the Kony platform</SText>
                 <overridePerferred>
                     <width>true</width>
                     <height>false</height>
@@ -5921,7 +5921,7 @@ popupSrch.lblKey.skin = "lblPopup";</value>
                     </xhtmlNormal>
                     <xhtmlNormal_override>false</xhtmlNormal_override>
                 </paddings>
-                <SText>Retrieve help content for SQL based by Category &amp; Keyword</SText>
+                <SText>Invoke a Custom Business Component using Java SDK</SText>
                 <overridePerferred>
                     <width>true</width>
                     <height>false</height>

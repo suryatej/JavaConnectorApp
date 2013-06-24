@@ -11791,7 +11791,7 @@ frmCategory.segHelptopic.widgetSkin="SegRoundWhite";</value>
                                 <updatedToNewTableRowData>true</updatedToNewTableRowData>
                                 <updatedToNewImageData>true</updatedToNewImageData>
                             </choiceData>
-                            <widgetSkin>SegRoundWhite</widgetSkin>
+                            <widgetSkin>Skin Defaults</widgetSkin>
                             <rowSkin>Skin Defaults</rowSkin>
                             <rowFocusSkin>Skin Defaults</rowFocusSkin>
                             <alternateRowSkin>Skin Defaults</alternateRowSkin>
