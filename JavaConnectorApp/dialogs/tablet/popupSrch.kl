@@ -2597,24 +2597,6 @@
                                         <key>js</key>
                                         <value>dismissPopUp</value>
                                     </entry>
-                                </functionNameMap>
-                                <paramDataMap>
-                                    <entry>
-                                        <key>js</key>
-                                        <value/>
-                                    </entry>
-                                </paramDataMap>
-                            </actionList>
-                            <actionList xsi:type="eventFunctionAction">
-                                <enabled>true</enabled>
-                                <name></name>
-                                <type>6</type>
-                                <functionName>None</functionName>
-                                <functionNameMap>
-                                    <entry>
-                                        <key>js</key>
-                                        <value>navToFrmCategory</value>
-                                    </entry>
                                     <entry>
                                         <key>lua</key>
                                         <value>None</value>
@@ -2630,6 +2612,17 @@
                                         <value/>
                                     </entry>
                                 </paramDataMap>
+                            </actionList>
+                            <actionList xsi:type="eventFormAction">
+                                <enabled>true</enabled>
+                                <name></name>
+                                <type>1</type>
+                                <destType>0</destType>
+                                <navigateFrom>popupSrch</navigateFrom>
+                                <navigateTo>frmCategory</navigateTo>
+                                <newOutputMapping/>
+                                <outputMapping/>
+                                <platform>0</platform>
                             </actionList>
                             <enabled>true</enabled>
                             <seqname></seqname>

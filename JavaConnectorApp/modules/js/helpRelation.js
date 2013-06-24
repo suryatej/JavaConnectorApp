@@ -76,9 +76,9 @@
 	function serachOption() {
 		var flag= frmSearchOption.segHelpKeyword.selectedIndex[1];
 		if(flag==0)
-			navToFrmCategory();
+			frmCategory.show();
 		else
-		    navToFrmKeyword();
+		    frmKeywords.show();
 	}	
 
 	

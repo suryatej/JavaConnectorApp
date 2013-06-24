@@ -27,7 +27,7 @@
     <platform>0</platform>
     <mode>0</mode>
     <formCategory>100</formCategory>
-    <toList>frmHome</toList>
+    <toList>frmHome,popupSrch</toList>
     <fromList></fromList>
     <headersrcList></headersrcList>
     <footersrcList></footersrcList>

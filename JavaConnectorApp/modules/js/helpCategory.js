@@ -1,8 +1,3 @@
-
-
-/* global Data */
- gVisit = 0;
-	
 	
 /*
 ****************************************************************
@@ -51,7 +46,7 @@
 		              	else
 		                	hbxFooterPage.setVisibility(true);
 		                      
-		             frmCategory.show();	                	
+		             //frmCategory.show();	                	
 	                 kony.application.dismissLoadingScreen();
 	            }
 	        }

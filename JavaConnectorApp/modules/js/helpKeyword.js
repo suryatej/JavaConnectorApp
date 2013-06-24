@@ -122,7 +122,7 @@
 			frmKeywords.segHelpKeyword.selectedIndex=[0,0];
 			serviceHelpRelation();
 			}
-			frmKeywords.show();
+			
 			kony.application.dismissLoadingScreen();
 		}
 		
@@ -156,16 +156,24 @@
 				hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblFrom.text = gPageno.toPrecision();
 			}					
 			gFromRow = gFromRow-40;
-			gNoOfRows = gNoOfRows-40;		
+			gNoOfRows = gNoOfRows-40;	
+			if(channel==="tablet"){
+					frmKeywords.lblFrom.text = gPageno.toPrecision();
+					frmKeywords.lblTo.text = gNoOfPages.toPrecision();
+			}else{
+					hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblFrom.text = gPageno.toPrecision();
+					hbxFooterPage.vbxIndexFooter.hbxIndexFooter.lblTo.text = gNoOfPages.toPrecision();
+			}	
 			var preHelpKeywordData = [];
 			for(var i = gFromRow ; i < gNoOfRows ; i++){
 				if(ghkData[i]!= null && ghkData[i]!= undefined)
 					preHelpKeywordData.push(ghkData[i]);
 			}
 			frmKeywords.segHelpKeyword.setData(preHelpKeywordData);
+			if(channel==="tablet"){
 			frmKeywords.segHelpKeyword.selectedIndex=[0,0];
 			serviceHelpRelation();
-			frmKeywords.show();	
+			}
 			kony.application.dismissLoadingScreen();
 		}
 		

@@ -7,6 +7,7 @@
     <container type="dialog" id="keywordPageFooter" displayname="Popup"/>
     <container type="form" id="frmCategory" displayname="Form"/>
     <container type="form" id="frmHome" displayname="Form"/>
+    <container type="form" id="frmKeywords" displayname="Form"/>
     <container type="form" id="frmSearchOption" displayname="Form"/>
     <container type="form" id="frmTopic" displayname="Form"/>
     <container type="dialog" id="keywordPageFooter" displayname="Popup"/>
@@ -14,7 +15,6 @@
     <container type="form" id="frmHome" displayname="Form"/>
     <container type="form" id="frmKeywords" displayname="Form"/>
     <container type="dialog" id="popupSrch" displayname="Popup"/>
-    <container type="form" id="frmKeywords" displayname="Form"/>
     <globalsequences/>
     <skins/>
 </application>
