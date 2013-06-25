@@ -7738,15 +7738,15 @@ frmKeywords.segHelptopic.widgetSkin="SegRoundWhite";</value>
                                         </spaWinphone8>
                                         <spaWinphone8_override>false</spaWinphone8_override>
                                         <spaipad>
-                                            <left>0</left>
-                                            <right>0</right>
-                                            <top>0</top>
-                                            <bottom>0</bottom>
+                                            <left>3</left>
+                                            <right>3</right>
+                                            <top>3</top>
+                                            <bottom>3</bottom>
                                             <unit>%</unit>
                                         </spaipad>
-                                        <spaipad_override>false</spaipad_override>
-                                        <spatablet_android_override>false</spatablet_android_override>
-                                        <spatablet_windows_override>false</spatablet_windows_override>
+                                        <spaipad_override>true</spaipad_override>
+                                        <spatablet_android_override>true</spatablet_android_override>
+                                        <spatablet_windows_override>true</spatablet_windows_override>
                                         <symbian>
                                             <left>1</left>
                                             <right>1</right>
@@ -7764,17 +7764,17 @@ frmKeywords.segHelptopic.widgetSkin="SegRoundWhite";</value>
                                         </tabRCAndroid>
                                         <tablet_rc_android_override>true</tablet_rc_android_override>
                                         <tabspaAndroid>
-                                            <left>0</left>
-                                            <right>0</right>
-                                            <top>0</top>
-                                            <bottom>0</bottom>
+                                            <left>3</left>
+                                            <right>3</right>
+                                            <top>3</top>
+                                            <bottom>3</bottom>
                                             <unit>%</unit>
                                         </tabspaAndroid>
                                         <tabspaWindows>
-                                            <left>0</left>
-                                            <right>0</right>
-                                            <top>0</top>
-                                            <bottom>0</bottom>
+                                            <left>3</left>
+                                            <right>3</right>
+                                            <top>3</top>
+                                            <bottom>3</bottom>
                                             <unit>%</unit>
                                         </tabspaWindows>
                                         <thinclient>

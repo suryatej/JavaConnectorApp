@@ -2,7 +2,7 @@
 /*
 ****************************************************************
 *	Name    : serviceHelpRelation
-*	Author  : Kony Solutions
+*	Author  : Kony 
 *	Purpose : This function is used to invoke the helprelation_mysql javaservice using appmiddlewareinvokerasync method  .
 ****************************************************************
 */
@@ -10,13 +10,12 @@
 	function serviceHelpRelation() {
 	
 		var KeywordID = null;
-		
-			KeywordID = frmKeywords["segHelpKeyword"]["selectedItems"][0]["hk_id"];
-			if(channel==="tablet")
-				frmKeywords.lblInfo.setVisibility(false);
-			else
-				frmTopic.lblInfo.setVisibility(false);
-		
+		KeywordID = frmKeywords["segHelpKeyword"]["selectedItems"][0]["hk_id"];
+		if(channel==="tablet")
+			frmKeywords.lblInfo.setVisibility(false);
+		else
+			frmTopic.lblInfo.setVisibility(false);
+	
 	    var mysqlhelprelation_inputparam = {};
 	    mysqlhelprelation_inputparam["serviceID"] = "helprelation_mysql";
 	    mysqlhelprelation_inputparam["id"] = KeywordID;
@@ -29,7 +28,7 @@
 /*
 ****************************************************************
 *	Name    : helpRelationCallback
-*	Author  : Kony Solutions
+*	Author  : Kony 
 *	Purpose : This function is used to get parameters status & resultTable i.e. called when appmiddlewareinvokerasync method executes.
 ****************************************************************
 */
@@ -45,15 +44,13 @@
 	                        "lblHTUrl": mysqlHelpRelationData["helpRelation"][i]["url"]
 	                    })
 	                }	                
-	            }
-	          
-		              if(channel==="tablet")
-							frmKeywords.segHelptopic.setData(hlArray);
-						else{
-							frmTopic.segHelptopic.setData(hlArray);
-		            		frmTopic.show();
-						}            	
-	                   
+	             }
+	            if(channel==="tablet")
+					frmKeywords.segHelptopic.setData(hlArray);
+				else{
+					frmTopic.segHelptopic.setData(hlArray);
+            		frmTopic.show();
+				}            	
 	            kony.application.dismissLoadingScreen();
 	        }
 			else{
@@ -68,7 +65,7 @@
 /*
 ****************************************************************
 *	Name    : serachOption
-*	Author  : Kony Solutions
+*	Author  : Kony 
 *	Purpose : This function is used to invoke the helprelation_mysql javaservice using appmiddlewareinvokerasync method  .
 ****************************************************************
 */
@@ -81,7 +78,14 @@
 		    frmKeywords.show();
 	}	
 
-	
+/*
+****************************************************************
+*	Name    : navPopupSrch
+*	Author  : Kony 
+*	Purpose : This function is used to show popup 
+****************************************************************
+*/
+
 	function navPopupSrch()
 	{
 		//#ifdef ipad
@@ -92,7 +96,13 @@
 
 		popupSrch.show();
 	}
-	
+/*
+****************************************************************
+*	Name    : dismissPopUp
+*	Author  : Kony 
+*	Purpose : This function is used to show popup 
+****************************************************************
+*/	
 	function dismissPopUp()
 	{
 			popupSrch.dismiss();

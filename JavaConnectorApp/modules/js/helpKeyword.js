@@ -1,7 +1,7 @@
 /*
 ****************************************************************
 *	Name    : searchByHelpKeyword
-*	Author  : Kony Solutions
+*	Author  : Kony 
 *	Purpose : This function is used to invoke the helpkeyword_mysql javaservice using appmiddlewareinvokerasync method  .
 ****************************************************************
 */
@@ -22,7 +22,7 @@
 /*
 ****************************************************************
 *	Name    : helpKeywordCallback
-*	Author  : Kony Solutions
+*	Author  : Kony 
 *	Purpose : This function is used to get parameters status & resultTable i.e. called when appmiddlewareinvokerasync method executes.
 ****************************************************************
 */
@@ -63,11 +63,15 @@
 		}
 		
 
-		
-	/* 
-	Defined onClick of next button for pagination of keywords data object in frmKeyword form.
-	*/
-	
+/*
+****************************************************************
+*	Name    : paginationNext
+*	Author  : Kony 
+*	Purpose : Defined onClick of next button for pagination of keywords data object in frmKeyword form.
+****************************************************************
+*/		
+			
+
 		function paginationNext(){			
 			if(channel==="tablet"){
 				frmKeywords.imgLeftfooter.src = "arwleftd.png";
@@ -125,8 +129,14 @@
 			
 			kony.application.dismissLoadingScreen();
 		}
-		
-	/* Defined onClick of previous button for pagination of keywords data object in frmKeyword form.*/
+/*
+****************************************************************
+*	Name    : paginationPrevious
+*	Author  : Kony 
+*	Purpose : Defined onClick of previous button for pagination of keywords data object in frmKeyword form.
+****************************************************************
+*/		
+	
 		
 		function paginationPrevious()
 		{
@@ -176,11 +186,16 @@
 			}
 			kony.application.dismissLoadingScreen();
 		}
-		
-	/* To navigate frmKeywords form */
+/*
+****************************************************************
+*	Name    : navToFrmKeyword
+*	Author  : Kony 
+*	Purpose : This function is used to Navigate to Keywords form.
+****************************************************************
+*/
 	
 		function navToFrmKeyword(){	
-			if(gVisit == 1){ /* "Cannot find host on this network connection,Please check network & try again." */ 				
+			if(gVisit == 1){  				
 				searchByHelpKeyword()
 			}
 			else frmKeywords.show();

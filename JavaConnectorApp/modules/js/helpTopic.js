@@ -2,7 +2,7 @@
 /*
 ****************************************************************
 *	Name    : helpTopicDetails
-*	Author  : Kony Solutions
+*	Author  : Kony 
 *	Purpose : This function is used to invoke the helptopic_mysql javaservice using appmiddlewareinvokerasync method  .
 ****************************************************************
 */
@@ -28,7 +28,7 @@
 /*
 ****************************************************************
 *	Name    : helpTopicCallback
-*	Author  : Kony Solutions
+*	Author  : Kony 
 *	Purpose : This function is used to get parameters status & resultTable i.e. called when appmiddlewareinvokerasync method executes.
 ****************************************************************
 */
@@ -80,9 +80,15 @@
 		    }
 	
 	}
-	
-// Configuring the request URL to get the Topic Description in browser widget. 
-	
+
+/*
+****************************************************************
+*	Name    : topicDescription
+*	Author  : Kony 
+*	Purpose : Configuring the request URL to get the Topic Description in browser widget.
+****************************************************************
+*/	
+
 	function topicDescription()
 	{
 		var URL = null,currForm = null ;

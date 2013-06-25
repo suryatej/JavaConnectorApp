@@ -2,7 +2,7 @@
 /*
 ****************************************************************
 *	Name    : searchByHelpCategory
-*	Author  : Kony Solutions
+*	Author  : Kony 
 *	Purpose : This function is used to invoke the helpcategory_mysql javaservice using appmiddlewareinvokerasync method  .
 ****************************************************************
 */
@@ -20,7 +20,7 @@
 /*
 ****************************************************************
 *	Name    : helpCategoryCallback
-*	Author  : Kony Solutions
+*	Author  : Kony 
 *	Purpose : This function is used to get parameters status & resultTable i.e. called when appmiddlewareinvokerasync method executes.
 ****************************************************************
 */
@@ -36,18 +36,15 @@
 	                        "lblHelpCategory": mysqlHelpCategoryData["helpCategory"][i]["hcname"]
 	                    })
 	                }
-	                
-		                frmCategory.segHelpCategory.setData(hcArray);
-		                frmCategory.lblInfo.text = "Select a category for respective HelpTopics: ";
-		                if(channel==="tablet"){
-		                	frmCategory.segHelpCategory.selectedIndex=[0,0];
-		                	helpTopicDetails();
-		                }	
-		              	else
-		                	hbxFooterPage.setVisibility(true);
-		                      
-		             //frmCategory.show();	                	
-	                 kony.application.dismissLoadingScreen();
+	                frmCategory.segHelpCategory.setData(hcArray);
+		            frmCategory.lblInfo.text = "Select a category for respective HelpTopics: ";
+		            if(channel==="tablet"){
+                	frmCategory.segHelpCategory.selectedIndex=[0,0];
+                	helpTopicDetails();
+                    }	
+                 	else
+                	hbxFooterPage.setVisibility(true);
+                 kony.application.dismissLoadingScreen();
 	            }
 	        }
 			else{
@@ -62,7 +59,13 @@
 	    }
 	}
 	
-	/* To navigate frmCategory form */
+/*
+****************************************************************
+*	Name    : navToFrmCategory
+*	Author  : Kony 
+*	Purpose : This function is used to Navigate to Category form.
+****************************************************************
+*/
 	
 		function navToFrmCategory(){			
 				
